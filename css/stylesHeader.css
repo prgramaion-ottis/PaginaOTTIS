@@ -2,12 +2,12 @@
     padding-left: 40px;
 }
 
-.letra{
+.nav-link{
     font-size: 15px;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-weight: bold;
+    font-weight: bold; */
 }
 .letra:hover{
     color: #00529b;
