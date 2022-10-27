@@ -1,0 +1,41 @@
+.logo{
+    padding-left: 40px;
+}
+
+.letra{
+    font-size: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.letra:hover{
+    color: #00529b;
+}
+nav{
+    background: linear-gradient(270deg,black,transparent);
+}
+
+.texto1{
+    position: absolute;
+    overflow: hidden;
+    top: 30%;
+    padding-left: 13%;
+    color: rgb(0, 0, 0);
+}
+
+.texto2{
+    position: absolute;
+    top: 45%;
+    padding-left: 13%;
+    color: black;
+}
+/*
+.margen{
+    left: 70%;
+} */
+/* .posicion{
+    position: relative;
+    top: 0%;
+    /* left: 125px;
+    right: 125px; */
