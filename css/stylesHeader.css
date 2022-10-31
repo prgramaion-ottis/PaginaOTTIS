@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'OTTIS';
+    src: url('../tipografias/MADE TOMMY Regular_PERSONAL USE.otf');
+}
 .logo{
     padding-left: 40px;
 }
@@ -5,12 +9,11 @@
 .navbar-nav a{    
     font-size: 15px;
     color: white;
-    font-family: '';
-    font-style: italic;
+    font-family: 'OTTIS';
 }
 .navbar-nav a:hover{
     color: #00529b;
 }
 nav{
-    background: linear-gradient(90deg,white,transparent);
+    background: linear-gradient(90deg, white,transparent);
 }

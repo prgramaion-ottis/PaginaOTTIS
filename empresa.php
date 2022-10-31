@@ -1,0 +1,10 @@
+<?php
+require("templates/header.html");
+?>
+<br>
+<br>
+<br>
+<br>
+<?php
+require("templates/footer.html");
+?>
