@@ -1,8 +1,13 @@
 .footer-media-ottis{
     background-color: #00375F;
     color: white;
+    text-decoration:none;
 }
 .footer-ottis{
     background-color: #00528d;
     color: white;
+    text-decoration:none;
+}
+#enlace-ottis{
+    text-decoration:none;
 }
