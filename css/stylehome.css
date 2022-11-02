@@ -6,6 +6,26 @@
     font-family: 'OTTIS_Titulo2';
     src: url('../tipografias/MADE TOMMY ExtraBold_PERSONAL USE.otf');
 }
+@font-face {
+    font-family: 'OTTIS_Titulo3';
+    src: url('../tipografias/MADE TOMMY Thin_PERSONAL USE.otf');
+}
+
+@font-face {
+    font-family: 'OTTIS_Titulo4';
+    src: url('../tipografias/MADE TOMMY Bold_PERSONAL USE.otf');
+}
+
+@font-face {
+    font-family: 'OTTIS_Titulo5';
+    src: url('../tipografias/MADE TOMMY Regular_PERSONAL USE.otf');
+}
+
+@font-face {
+    font-family: 'OTTIS_Titulo6';
+    src: url('../tipografias/MADE TOMMY Bold_PERSONAL USE.otf');
+}
+
 .caja{
     position: relative;
     display: inline-block;
@@ -34,4 +54,159 @@
     top: 260px;
     left: 190px;
     width: 33%;
+}
+
+.texto3{
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    font-family: 'OTTIS_Titulo3'; 
+    color: white;
+    font-size: 15px;
+}
+
+.contacto{
+    position: fixed;
+    top: 340px;
+    left: 1115px;
+    width: 6%;
+    z-index: 1;
+}
+
+.caja_roja{
+    position: relative;
+    background-color: #AE032F;
+    height: 200px;
+}
+
+.texto4{
+    position: absolute;
+    top: 55px;
+    left: 100px;
+    font-family: 'OTTIS_Titulo4'; 
+    color: white;
+    font-size: 38px;
+}
+
+.texto5{
+    position: absolute;
+    top: 55px;
+    left: 680px;
+    font-family: 'OTTIS_Titulo4'; 
+    color: white;
+    font-size: 38px;
+}
+
+.recurso2{
+    position: absolute;
+    top: 65px;
+    left: 245px;
+    width: 15%;
+}
+
+.recurso3{
+    position: absolute;
+    top: 65px;
+    left: 875px;
+    width: 15%;
+}
+
+.caja_blanca{
+    position: relative;
+    background-color: white;
+    height: 200px;
+}
+
+.icono1{
+    position: absolute;
+    top: 40px;
+    left: -15px;
+    width: 35%;
+}
+
+.texto6{
+    position: absolute;
+    top: 70px;
+    left: 130px;
+    font-family: 'OTTIS_Titulo5'; 
+    color: white;
+    font-size: 12px;
+    z-index: 1;
+}
+.icono2{
+    position: absolute;
+    top: 35px;
+    left: 760px;
+    width: 30%;
+}
+
+.buscar{
+    position: absolute;
+    top: 110px;
+    left: 720px;
+    z-index: 2;
+    width: 185px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #AE032F;
+    height: 25px;
+    color: white;
+    font-family: 'OTTIS_Titulo4';
+}
+
+.buscar2{
+    position: absolute;
+    top: 110px;
+    left: 910px;
+    z-index: 2;
+    border-radius: 7px;
+    width: 70px;
+    background-color: #00528d;
+    height: 25px;
+    border-style: solid;
+    border-color: #00528d;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+.texto7{
+    position: absolute;
+    top: 116px;
+    left: 130px;
+    font-family: 'OTTIS_Titulo5'; 
+    color: white;
+    font-size: 15px;
+    z-index: 1;
+}
+.texto8{
+    position: absolute;
+    top: 80px;
+    left: 860px;
+    font-family: 'OTTIS_Titulo6'; 
+    color: white;
+    font-size: 17px;
+    z-index: 1;
+}
+.texto9{
+    position: absolute;
+    top: 100px;
+    left: 860px;
+    font-family: 'OTTIS_Titulo6'; 
+    color: white;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.caja_gris{
+    position: relative;
+    background-color: rgb(216, 214, 214);
+    height: 200px;
+}
+
+.silvia{
+    position: absolute;
+    top: 510px;
+    left: 355px;
+    width: 47%;
 }
