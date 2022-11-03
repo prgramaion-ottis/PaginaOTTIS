@@ -2,12 +2,19 @@
 require("templates/header.html");
 ?>
 <link rel="stylesheet" href="css/stylehome.css" crossorigin="anonymous">
-<div class="container">
+<div class="container-md">
     <div class="caja">
-        <img src="./imagenes/planes/Mesa de trabajo 2.png" width="100%" alt="">
-        <h1 class="texto1"> Bienvenido a</h1>
-        <h4 class="texto2"> OTTIS COMUNICACIONES </h4> 
-        <img class="recurso1" src="./imagenes/home/recurso 2.png"> 
+        <img src="./imagenes/planes/Mesa de trabajo 2.png" class="img-fluid" width="100%" alt="">
+        <div class="col-6 offset-1">
+            <h1 class="texto1"> Bienvenido a</h1>
+        </div>
+        <div class="col-6 offset-1">
+            <h4 class="texto2"> OTTIS COMUNICACIONES </h4> 
+        </div>
+        <div class="col-2 offset-2">
+            <img class="recurso1" src="./imagenes/home/recurso 2.png"> 
+        </div>
+
         <p class="texto3"><strong>Tu empresa proveedora de redes y servicios <br>
                                   de telecomunicaciones.</strong> Recuerda que ahora puedes <br>
                                   realizar tus pagos sin salir de casa o consultar tu deuda <br>

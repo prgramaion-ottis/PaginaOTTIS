@@ -33,27 +33,25 @@
 
 .texto1{
     position: absolute;
-    top: 180px;
-    left: 150px;
+    top: 13vw;
     font-family: 'OTTIS_Titulo1'; 
     color: white;
-    font-size: 75px;
+    font-size: 6vw; 
 }
 
 .texto2{
     position: absolute;
-    top: 260px;
-    left: 150px;
+    top: 19vw;
     font-family: 'OTTIS_Titulo2'; 
     color: white;
-    font-size: 30px;
+    font-size: 2.8vw;
 }
 
 .recurso1{
     position: absolute;
-    top: 260px;
-    left: 190px;
-    width: 33%;
+    top: 19.5vw;
+    width: 32vw;
+    /* height: 5vw; */
 }
 
 .texto3{
