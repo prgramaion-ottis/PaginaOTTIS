@@ -1,31 +1,3 @@
-@font-face {
-    font-family: 'OTTIS_Titulo1';
-    src: url('../tipografias/MADE TOMMY ExtraBold_PERSONAL USE.otf');
-}
-@font-face {
-    font-family: 'OTTIS_Titulo2';
-    src: url('../tipografias/MADE TOMMY ExtraBold_PERSONAL USE.otf');
-}
-@font-face {
-    font-family: 'OTTIS_Titulo3';
-    src: url('../tipografias/MADE TOMMY Thin_PERSONAL USE.otf');
-}
-
-@font-face {
-    font-family: 'OTTIS_Titulo4';
-    src: url('../tipografias/MADE TOMMY Bold_PERSONAL USE.otf');
-}
-
-@font-face {
-    font-family: 'OTTIS_Titulo5';
-    src: url('../tipografias/MADE TOMMY Regular_PERSONAL USE.otf');
-}
-
-@font-face {
-    font-family: 'OTTIS_Titulo6';
-    src: url('../tipografias/MADE TOMMY Bold_PERSONAL USE.otf');
-}
-
 .caja{
     position: relative;
     display: inline-block;
