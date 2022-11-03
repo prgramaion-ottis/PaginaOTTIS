@@ -15,13 +15,15 @@ require("templates/header.html");
         <div class="col-2 offset-2">
             <img class="recurso1" src="./imagenes/home/recurso 2.png"> 
         </div>
-
-        <p class="texto3"><strong>Tu empresa proveedora de redes y servicios <br>
-                                  de telecomunicaciones.</strong> Recuerda que ahora puedes <br>
-                                  realizar tus pagos sin salir de casa o consultar tu deuda <br>
-                                  ingresando tú número de identificación, de manera <br>
-                                  rápida y sencilla con un solo clic.    
-        </p>
+        <div class="col-2 offset-1">
+            <p class="texto3"><strong>Tu empresa proveedora de redes y servicios <br>
+                                    de telecomunicaciones.</strong> Recuerda que ahora puedes <br>
+                                    realizar tus pagos sin salir de casa o consultar tu deuda <br>
+                                    ingresando tú número de identificación, de manera <br>
+                                    rápida y sencilla con un solo clic.    
+            </p>
+        </div>
+        
     </div> 
     <div>      
         <div class="caja_roja">
