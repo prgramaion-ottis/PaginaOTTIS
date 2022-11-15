@@ -60,8 +60,7 @@ require("templates/header.html");
     <div class="caja_gris">
 
     </div>
-    <a new target="_blank" class="contact" type="button"  href="https://api.whatsapp.com/send/?phone=573212893978&text&type=phone_number&app_absent=0"> <img src="./iconos/contacto.svg" alt=""></a>   
-</div>
+    </div>
 
 <br>
 <br>

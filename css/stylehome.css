@@ -34,13 +34,7 @@
     font-size: 1vw;
 }
 
-.contact{
-    position: fixed;
-    top: 75%;
-    margin-left: 75%;
-    width: 6%;
-    z-index: 1;
-}
+
 
 .red_box{
     position: relative;
