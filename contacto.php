@@ -2,17 +2,57 @@
 require("templates/header.html");
 ?>
 <link rel="stylesheet" href="css/stylecontact.css" crossorigin="anonymous">
-<div class="container-md">
-    <div class="refence_box" width="100%">
-        
-        <img class="imagen-fondo" src="./imagenes/contacto/imagen_contacto-100.jpg" style="z-index:1" width="100%" alt="">
-        <div id="titulo" class="col-12 col-sm-12 col-md-6 col-lg-6 "style="z-index:2"> 
-            <h1 class="title ">Contacto</h1> 
+<div class="container">
+    <div class="refence_box" width="100%" >
+        <img class="" src="./imagenes/contacto/imagen_contacto-100.jpg" style="z-index:1" width="100%" alt="">
+        <!-- <div class="row"> -->
+            
+        <!-- </div> -->
+        <!-- <div id="div-title" class="offset-1 col-12 col-sm-12 col-md-6 col-lg-6  " > 
+            <h1 class="title display-2">Contacto</h1> 
+        </div> -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
+            <h1 class="wellcome">Contacto</h1>
         </div>
+        <br>
+        <br>
     </div> 
-    <a new target="_blank" class="contact" type="button"  href="https://api.whatsapp.com/send/?phone=573212893978&text&type=phone_number&app_absent=0"> 
-        <img src="./iconos/contacto.svg" alt="" style="background-color: rgb(0, 66, 66)">
-    </a>
+    
+    <div class="container">
+    <div class="row conecta ">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros</h1> </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros 2</h1></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros3</h1></div>
+            </div>
+        </div>
+        <div class="col-md-6 refence_box">
+            <img src="./imagenes/contacto/call_center-100.jpg" height= "400px" alt="">
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    <!-- <div class="conecta">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row">
+                    <h1 class="title-conecta">CONECTA CON NOSOTROS</h1>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="./imagenes/contacto/call_center-100.jpg" height= "600px" alt="">
+            </div>
+        </div>
+        
+    </div> -->
+    
 
 </div>
 <br>
