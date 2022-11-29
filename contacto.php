@@ -18,9 +18,14 @@ require("templates/header.html");
         <br>
     </div> 
     
+    
     <div class="container">
+        
     <div class="row conecta ">
-        <div class="col-md-6">
+        <div class="col-md-6 offset-1">
+            <div class="row">
+                <div class="col-md-12"><h1 class="title-conecta">CONECTA CON NOSOTROS</h1> </div>
+            </div>
             <div class="row">
                 <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros</h1> </div>
             </div>
@@ -31,7 +36,7 @@ require("templates/header.html");
                 <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros3</h1></div>
             </div>
         </div>
-        <div class="col-md-6 refence_box">
+        <div class="col-md-5 refence_box">
             <img src="./imagenes/contacto/call_center-100.jpg" height= "400px" alt="">
         </div>
     </div>
