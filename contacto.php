@@ -20,21 +20,40 @@ require("templates/header.html");
     
     
     <div class="container">
-        
+
     <div class="row conecta ">
         <div class="col-md-6 offset-1">
             <div class="row">
                 <div class="col-md-12"><h1 class="title-conecta">CONECTA CON NOSOTROS</h1> </div>
             </div>
-            <div class="row">
-                <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros</h1> </div>
+            <br>
+            <br>
+            <div class="row flexbox">
+            <img class="col-md-2 icono"src="./iconos/whatsApp_3.png" >
+                <div class="col-md-10">
+                    <h4 class="sub-title-contacto"><b>3204995482</b>
+                    </h4>
+                    <h4 class="texto-contacto">
+                        3226096107
+                    </h4>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros 2</h1></div>
+            <div class="row flexbox" >
+                <img class="col-md-2 icono"src="./iconos/facebook.png" >
+                <div class="col-md-10"><a href="https://www.facebook.com/ottiscomunica"><h4 class="sub-title-contacto">/ottiscomunica</h4></a></div>
             </div>
-            <div class="row">
-                <div class="col-md-12"><h1 class="title-conecta">Contacta con nosotros3</h1></div>
+            <div class="row flexbox">
+            <img class="col-md-2 icono"src="./iconos/whatsApp_3.png" >
+                <div class="col-md-10">
+                    <h4 class="sub-title-contacto"><b>Cra 16 A # 13 A - 19</b>
+                    </h4>
+                    <h4 class="texto-contacto">
+                        Sogamoso - Boyacá
+                    </h4>
+                </div>
             </div>
+    
+
         </div>
         <div class="col-md-5 refence_box">
             <img src="./imagenes/contacto/call_center-100.jpg" height= "400px" alt="">

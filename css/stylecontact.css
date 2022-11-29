@@ -45,5 +45,28 @@
     /* position: absolute; */
     font-family: 'OTTIS_Titulo1'; 
     color: white;
-    font-size: 2vw; 
+    font-size: 4vw; 
 }
+.sub-title-contacto{
+    font-family: 'OTTIS_Titulo1';
+    color: white;
+    vertical-align: middle;
+}
+.texto-contacto{
+    font-family: 'OTTIS';
+    color: white;
+    vertical-align: middle;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.flexbox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.icono{
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}  
