@@ -5,10 +5,10 @@
 
 .wellcome{
     position: absolute;
-    top: 13vw;
+    top: 140px;
     font-family: 'OTTIS_Titulo1'; 
     color: white;
-    font-size: 5vw; 
+    font-size: 56px; 
 }
 
 .ottis_comunicaciones{
@@ -170,4 +170,11 @@
     top: 510px;
     left: 355px;
     width: 47%;
+}
+
+/* ---------------- */
+
+
+.imagen{
+    background-image: url("../imagenes/planes/Mesa de trabajo 2.png");
 }
