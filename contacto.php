@@ -12,7 +12,7 @@ require("templates/header.html");
             <h1 class="title display-2">Contacto</h1> 
         </div> -->
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
-            <h1 class="wellcome">CONTACTO</h1>
+            <h1 class="wellcome">Contacto</h1>
         </div>
         <br>
         <br>
@@ -20,7 +20,7 @@ require("templates/header.html");
     
     
     <div class="container">
-
+        
     <div class="row conecta ">
         <div class="col-xs-12 col-sm-12 col-md-6 offset-1">
             <div class="row col-xs-12 col-sm-12 col-md-12">
