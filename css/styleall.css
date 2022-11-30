@@ -1,8 +1,14 @@
 .contact{
+    background-color: transparent;
+    border: none;
     position: fixed;
-    top: 85%;
-    margin-left: 90%;
-    width: 6%;
-    z-index: 1;
+    max-width: 80%!important;
+    width: 7rem;
+    height: auto;
+    bottom: 25px;
+    right: 10px;
+    /* color: #fff; */
+    border-radius: 50px;
+    z-index: 100;
     
 }

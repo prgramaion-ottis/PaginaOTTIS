@@ -2,7 +2,7 @@
 require("templates/header.html");
 ?>
 <link rel="stylesheet" href="css/stylehome.css" crossorigin="anonymous">
-<div class="container-md">
+<div class="container col-12">
     <div class="refence_box">
         <img src="./imagenes/planes/Mesa de trabajo 2.png" class="img-fluid" width="100%" alt="">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
