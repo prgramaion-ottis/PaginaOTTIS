@@ -35,7 +35,7 @@
     top: 20vw;
     font-family: 'OTTIS_Titulo1'; 
     color: white;
-    font-size: 5vw; 
+    font-size: "15"; 
 }
 .conecta{
     background:linear-gradient(to right, #00528D, #001C51);
@@ -45,7 +45,7 @@
     /* position: absolute; */
     font-family: 'OTTIS_Titulo1'; 
     color: white;
-    font-size: 4vw; 
+    /* font-size: 4vw;  */
 }
 .sub-title-contacto{
     font-family: 'OTTIS_Titulo1';

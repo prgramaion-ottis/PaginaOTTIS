@@ -12,7 +12,7 @@ require("templates/header.html");
             <h1 class="title display-2">Contacto</h1> 
         </div> -->
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
-            <h1 class="wellcome">Contacto</h1>
+            <h1 class="wellcome">CONTACTO</h1>
         </div>
         <br>
         <br>
@@ -24,13 +24,13 @@ require("templates/header.html");
     <div class="row conecta ">
         <div class="col-md-6 offset-1">
             <div class="row">
-                <div class="col-md-12"><h1 class="title-conecta">CONECTA CON NOSOTROS</h1> </div>
+                <div class="col-xs-12 col-sm-12 col-md-12"><h1 class="title-conecta">CONECTA CON NOSOTROS</h1> </div>
             </div>
             <br>
             <br>
             <div class="row flexbox">
             <img class="col-md-2 icono"src="./iconos/whatsApp_3.png" >
-                <div class="col-md-10">
+                <div class="col-xs-12 col-sm-12 col-md-10">
                     <h4 class="sub-title-contacto"><b>3204995482</b>
                     </h4>
                     <h4 class="texto-contacto">
@@ -43,7 +43,7 @@ require("templates/header.html");
                 <div class="col-md-10"><a href="https://www.facebook.com/ottiscomunica"><h4 class="sub-title-contacto">/ottiscomunica</h4></a></div>
             </div>
             <div class="row flexbox">
-            <img class="col-md-2 icono"src="./iconos/whatsApp_3.png" >
+                <img class="col-md-2 icono"src="./iconos/whatsApp_3.png" >
                 <div class="col-md-10">
                     <h4 class="sub-title-contacto"><b>Cra 16 A # 13 A - 19</b>
                     </h4>
@@ -52,11 +52,33 @@ require("templates/header.html");
                     </h4>
                 </div>
             </div>
+            <div class="row flexbox">
+                <img class="col-md-2 icono"src="./iconos/whatsApp_3.png" >
+                <div class="col-md-10">
+                    <h4 class="sub-title-contacto"><b>comercial@ottis.com.co</b>
+                    </h4>
+                </div>
+            </div>
+            <div class="row flexbox">
+                <img class="col-md-2 icono"src="./iconos/twiter.png" >
+                <div class="col-md-10">
+                    <h4 class="sub-title-contacto"><b>@OttisComunica</b>
+                    </h4>
+                </div>
+            </div>
+            <div class="row flexbox">
+                <img class="col-md-2 icono"src="./iconos/twiter.png" >
+                <div class="col-md-10">
+                    <h4 class="sub-title-contacto"><b>6019172166</b>
+                    </h4>
+                    <h4 class="texto-contacto">6017943254</h4>
+                </div>
+            </div>
     
 
         </div>
         <div class="col-md-5 refence_box">
-            <img src="./imagenes/contacto/call_center-100.jpg" height= "400px" alt="">
+            <img src="./imagenes/contacto/call_center-100.jpg" height= "800px" width="400px" alt="">
         </div>
     </div>
     </div>
