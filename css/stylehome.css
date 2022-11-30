@@ -4,10 +4,9 @@
 }
 
 .wellcome{
-    position: absolute;
-    top: 140px;
+    /* top: 140px; */
     font-family: 'OTTIS_Titulo1'; 
-    color: white;
+    color: blue;
     font-size: 56px; 
 }
 
