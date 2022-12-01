@@ -80,7 +80,7 @@ require("templates/header.html");
                         </div>
                     </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-5 refence_box">
+            <div class="col-xs-12 col-sm-12 col-md-5 ">
                 <img src="./imagenes/contacto/call_center-100.jpg" height= "800px" width="100%" alt="">
             </div>
             

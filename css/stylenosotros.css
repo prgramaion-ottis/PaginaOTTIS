@@ -1,3 +1,12 @@
-div.imagen{
-    background-image: url("./imagenes/nosotros/Mesa_de_trabajo_9.png");
+.wellcome{
+    margin-top: 80%;
+    position: absolute;
+    top: 20vw;
+    font-family: 'OTTIS_Titulo1'; 
+    color: white;
+    font-size: "15"; 
+}
+.titulo{
+    margin-top: 70%;
+    background-color: aqua;
 }
