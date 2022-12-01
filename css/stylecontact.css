@@ -2,25 +2,20 @@
 /* .caja{
     background-image: "./imagenes/contacto/imagen_contacto-100.jpg";
 } */
-.title{
-    /* position: relative; */
+/* .title{
+    
     font-family: 'OTTIS_Titulo1'; 
     color: white;
     font-size: 5vw;
     z-index: 2;
-}
+} */
 /* .text{
     font-family: 'OTTIS_Titulo1'; 
     color: white;
     font-size: 75px;
 } */
-.imagen-decoracion{
-    width: 50%;
-}
-.refence_box{
-    position:Password relative;
-    display: inline-block;    
-}
+
+
 
 #div-title{
     top: -20%;
@@ -35,7 +30,6 @@
     top: 20vw;
     font-family: 'OTTIS_Titulo1'; 
     color: white;
-    font-size: "15"; 
 }
 .conecta{
     background:linear-gradient(to right, #00528D, #001C51);
@@ -93,9 +87,9 @@ form{
     padding-top: 50px;
     width: 100%!important;
 }
-#name{
+/* #name{
     
-}
+} */
 .message-name{
     display: none !important;
 }
