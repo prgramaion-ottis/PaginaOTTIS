@@ -19,8 +19,6 @@ require("templates/header.html");
             <div class=" col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
                 <h1 class="wellcome">CONTACTO</h1>
             </div>
-            <br>
-            <br>
         </div> 
         <div class="container">
             <div class="row conecta ">
