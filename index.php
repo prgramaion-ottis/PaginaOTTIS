@@ -2,15 +2,19 @@
 require("templates/header.html");
 ?>
 <link rel="stylesheet" href="css/stylehome.css" crossorigin="anonymous">
-<div class="container-md">
-    <div class="refence_box" width="100%">
-        <img src="./imagenes/planes/Mesa de trabajo 2.png" class="img-fluid" width="100%" alt="">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
-            <h1 class="wellcome col-md-8"> Bienvenido a</h1>
+<div class="container col-12">
+    <div class="refence_box" width="100%">    
+        <div class="imagen"> <img src="./imagenes/planes/Mesa de trabajo 2.png" class="img-fluid" width="100%" alt=""></div>
+            <div class="row"> 
+                <div class="col-xs-12 col-sm-12 col-md-12 offset-1">
+                    <div class="row col-xs-12 col-sm-12 col-md-12">
+                        <h1 class="wellcome">Bienvenido a</h1> 
+                    </div>   
+                </div>
+                <!-- <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
+                <div class=""></div><h1 class="wellcome col-md-8"> Bienvenido a</h1> -->
+            </div>
         </div>
-    <!-- </div> -->
-    
-
     </div>
         <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 offset-1">
             <h4 class="ottis_comunicaciones"> OTTIS COMUNICACIONES </h4> 

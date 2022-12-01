@@ -1,16 +1,31 @@
-.refence_box{
-    position: relative;
-    display: inline-block;
+.imagen{
+    width: 1920px;
+    height: 888px;
+    background-image: url("../imagenes/planes/Mesa_de_trabajo_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.wellcome{
-    /* top: 140px; */
+
+
+
+
+
+
+/* .refence_box{
+    position: absolute;
+    display: inline-block;
+} */
+
+/* .wellcome{
+    position: relative ;
     font-family: 'OTTIS_Titulo1'; 
     color: blue;
     font-size: 56px; 
-}
+} */
 
-.ottis_comunicaciones{
+
+/* .ottis_comunicaciones{
     position: absolute;
     top: 18vw;
     font-family: 'OTTIS_Titulo2'; 
@@ -169,11 +184,8 @@
     top: 510px;
     left: 355px;
     width: 47%;
-}
+} */
 
 /* ---------------- */
 
 
-.imagen{
-    background-image: url("../imagenes/planes/Mesa de trabajo 2.png");
-}
