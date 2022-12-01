@@ -18,7 +18,7 @@
     width: 50%;
 }
 .refence_box{
-    position: relative;
+    position:Password relative;
     display: inline-block;    
 }
 
@@ -70,4 +70,38 @@ a:link, a:visited, a:active {
     display: flex;
     justify-content: center;
 }  
-
+form{
+    background-color: darkgray;
+    padding-top: 50px;
+    width: 100%!important;
+}
+.btn-form{
+    text-align: center;
+    color: white;
+    background-color: #00528d;
+    border-radius: 24px;
+    margin-left: 25%;
+    width: 50%;
+}
+.btn-form:hover{
+    color: #00529b;
+    background-color: white;
+    border-radius: 24px;
+}
+.cont{
+    background-color: darkgray;
+    padding-top: 50px;
+    width: 100%!important;
+}
+#name{
+    
+}
+.message-name{
+    display: none !important;
+}
+.message-email{
+    display: none !important;
+}
+.message-phone{
+    display: none !important;
+}
