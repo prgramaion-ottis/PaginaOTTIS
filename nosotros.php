@@ -1,6 +1,6 @@
 
     <?php
-    require("templates/cabecera.html");
+    require("templates/header.html");
     ?>
     <body>
         <div class="container">
@@ -11,7 +11,7 @@
                 <img src="./imagenes/nosotros/Mesa_de_trabajo_9.png" alt="" width="100%">                
             </div>
 
-            
+
 
         </div>
     
