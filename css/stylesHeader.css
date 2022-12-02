@@ -1,20 +1,28 @@
 
 .logo{
-    padding-left: 2vw;
+    /* padding-left: 2vw; */
     width: 15%;
 }
 
 .navbar-nav a{    
-    font-size: 1vw;
     color: white;
     font-family: 'OTTIS';
 }
 .navbar-nav a:hover{
     color: #00529b;
 }
+
 nav{
     background: linear-gradient(90deg, white,transparent);
 }
-cont{
-    
+@media (max-width:991px) and (min-width:150px){
+
+.navbar-nav a{
+    color: #00529b;
+    font-family: 'OTTIS';
+}
+.navbar-nav a:hover{
+    color: darkgray;
+}
+
 }
