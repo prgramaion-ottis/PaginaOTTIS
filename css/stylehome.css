@@ -1,41 +1,50 @@
-.imagen{
-    width: 1920px;
-    height: 888px;
-    background-image: url("../imagenes/planes/Mesa_de_trabajo_2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-
-
-
-
-
 /* .refence_box{
     position: absolute;
     display: inline-block;
 } */
 
-/* .wellcome{
-    position: relative ;
-    font-family: 'OTTIS_Titulo1'; 
-    color: blue;
-    font-size: 56px; 
-} */
-
-
-/* .ottis_comunicaciones{
+@media (max-width:768px) and (min-width:150px){
+.wellcome{
     position: absolute;
     top: 18vw;
+    font-family: 'OTTIS_Titulo1'; 
+    color: white;
+    font-size: 8vw; 
+}
+.name{
+    position: absolute;
+    top: 26vw;
     font-family: 'OTTIS_Titulo2'; 
     color: white;
-    font-size: 2.4vw;
+    font-size: 3.5vw;
 }
-
 .resource_red{
     position: absolute;
-    top: 18vw;
+    top: 27vw;
+    width: 40vw;
+    height: 7vw;
+}
+
+}
+.wellcome2{
+    position: absolute;
+    top: 10vw;
+    font-family: 'OTTIS_Titulo1'; 
+    color: white;
+    font-size: 6vw; 
+}
+
+.name2{
+    position: absolute;
+    top: 16vw;
+    font-family: 'OTTIS_Titulo2'; 
+    color: white;
+    font-size: 2.8vw;
+}
+
+.resource_red2{
+    position: absolute;
+    top: 17vw;
     width: 28vw;
     height: 6vw;
 }
@@ -45,16 +54,15 @@
     top: 22vw;
     font-family: 'OTTIS_Titulo3'; 
     color: white;
-    font-size: 1vw;
+    font-size: 1.1vw;
 }
-
-
 
 .red_box{
     position: relative;
     background-color: #AE032F;
     height: 200px;
 }
+
 
 .payment{
     position: absolute!important;
@@ -71,6 +79,8 @@
     color: white;
     font-size: 30px;
 }
+/*
+
 
 .recurso2{
     position: absolute;
