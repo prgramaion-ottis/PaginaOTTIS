@@ -4,7 +4,7 @@ require("templates/header.html");
 <body>
 <script src="js/script.js"></script>
 <link rel="stylesheet" href="css/stylecontact.css" crossorigin="anonymous">
-    <div class="container col-12">
+    <div class="container">
         <?php
             require("templates/navbar.html");
         ?>
@@ -20,8 +20,8 @@ require("templates/header.html");
                 <h1 class="wellcome">CONTACTO</h1>
             </div>
         </div> 
-        <div class="container">
-            <div class="row conecta ">
+        <div class="conecta">
+            <div class="row  ">
                 <div class="col-xs-12 col-sm-12 col-md-6 offset-1 ">
                     <div class="row col-12 col-xs-12 col-sm-12 col-md-12">
                         <h1 class="title-conecta">CONECTA CON NOSOTROS</h1> 
@@ -43,7 +43,9 @@ require("templates/header.html");
                     </div>
                     <div class="row row-cols-2 flexbox" >
                         <img class="col-2 col-xs-3 col-sm-4 col-md-2 icono"src="./iconos/facebook.png" >
-                        <div class="col-11 col-xs-9 col-sm-6 col-md-10"><a href="https://www.facebook.com/ottiscomunica"><h4 class="sub-title-contacto">/ottiscomunica</h4></a></div>
+                        <div class="col-11 col-xs-9 col-sm-6 col-md-10">
+                            <a href="https://www.facebook.com/ottiscomunica"><h4 class="sub-title-contacto">/ottiscomunica</h4></a>
+                        </div>
                     </div>
                     <div class="row row-cols-2 flexbox">
                         <img class="col-2 col-xs-3 col-sm-4 col-md-2 icono"src="./iconos/whatsApp_3.png" >
@@ -58,31 +60,33 @@ require("templates/header.html");
                     <div class="row row-cols-2 flexbox">
                         <img class="col-2 col-xs-3 col-sm-3 col-md-2 icono"src="./iconos/whatsApp_3.png" >
                         <div class="col-11 col-xs-9 col-sm-6 col-md-10">
-                            <h4 class="sub-title-contacto"><b>comercial@ottis.com.co</b>
-                            </h4>
+                            <h4 class="sub-title-contacto"><b>comercial@ottis.com.co</b></h4>
                         </div>
                     </div>
                     <div class="row row-cols-2 flexbox">
                         <img class="col-2 col-xs-3 col-sm-4 col-md-2 icono"src="./iconos/twiter.png" >
                         <div class="col-11 col-xs-9 col-sm-6 col-md-10">
-                            <h4 class="sub-title-contacto"><b>@OttisComunica</b>
-                            </h4>
+                            <h4 class="sub-title-contacto"><b>@OttisComunica</b></h4>
                         </div>
                     </div>
                     <div class="row row-cols-2 flexbox">
                         <img class="col-2 col-xs-3 col-sm-4 col-md-2 icono"src="./iconos/twiter.png" >
                         <div class="col-11 col-xs-9 col-sm-6 col-md-10">
-                            <h4 class="sub-title-contacto"><b>6019172166</b>
-                            </h4>
+                            <h4 class="sub-title-contacto"><b>6019172166</b></h4>
                             <h4 class="texto-contacto">6017943254</h4>
                         </div>
                     </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-5 ">
-                <img src="./imagenes/contacto/call_center-100.jpg" height= "800px" width="100%" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 ">
+                    <img src="./imagenes/contacto/call_center-100.jpg" height= "800px" width="100%" alt="">
+                </div>
             </div>
             
-            <form>
+            
+            
+   
+        </div>
+        <form>
             <br>
                 
                 <div class="form-row row">
@@ -106,9 +110,8 @@ require("templates/header.html");
                 </div>
                 <br>
             </form>
-            
-        </div>
-        <div class="message-name">
+            <br>
+        <!-- <div class="message-name">
             <p>Tu nombre y apellido</p>
         </div>
         <div class="message-email">
@@ -116,44 +119,10 @@ require("templates/header.html");
         </div>
         <div class="message-phone">
             <p>Tu numero de contacto</p>
-        </div>
+        </div> -->
     </div>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Expand at md</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExample04">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form role="search">
-          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-        </form>
-      </div>
-    </div>
-  </nav>
-    </div>
-    <br>
-    <br>
+    
 <?php
 require("templates/footer.html");
 ?>

@@ -1,11 +1,11 @@
-.contact{
+.contacto{
     background-color: transparent;
     border: none;
     position: fixed;
     max-width: 80%!important;
     width: 7rem;
     height: auto;
-    bottom: 25px;
+    bottom: 100px;
     right: 10px;
     /* color: #fff; */
     border-radius: 50px;
