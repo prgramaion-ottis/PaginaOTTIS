@@ -1,16 +1,44 @@
 .wellcome{
-    margin-top: 80%;
+    /* margin-top: 7%; */
     position: absolute;
     top: 20vw;
     font-family: 'OTTIS_Titulo1'; 
     color: white;
-    font-size: "15"; 
+    margin-bottom: 8%;
 }
-.titulo{
+/* .titulo{
     margin-top: 70%;
     background-color: aqua;
-}
+} */
 .nosotros{
     background:linear-gradient(to right, #00528D, #001C51);
-    padding-top: 10%;
+    padding-top: 2%;
+    height: 500px;
+}
+.text-1{
+    font-family: 'OTTIS';
+    color: white;
+}
+img.vehiculos{
+    opacity: 0.5;
+}
+.img-vision{
+    background-image: url("../imagenes/nosotros/Mesa_de_trabajo_5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.img-cracks{
+    height: 500px;
+}
+
+@media (max-width:991px) and (min-width:150px){
+
+    .vehiculos{
+        display: none!important;
+    }
+    .text-1{
+        width: 100%;
+    }
+    
 }
