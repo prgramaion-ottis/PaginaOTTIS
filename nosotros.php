@@ -34,9 +34,10 @@
         <div class="img-mision" style="background-image: url('./imagenes/nosotros/Mesa_de_trabajo_5.png');"  >
             <!-- <img src="./imagenes/nosotros/Mesa_de_trabajo_5.png" alt="" height="100%" width="100%" style="z-index: -2; position: absolute;"> -->
             <div class="row">
-                <div class="img-cracks offset-2 col-sm-4">
+                <div class="operativo">
                     <img src="./imagenes/nosotros/Mesa_de_trabajo_2.png" alt="" class="img-cracks d-none d-sm-none d-lg-block" height="100%">
-                <div class="tarjeta-mision col-11 col-sm-11" >
+                </div>    
+                <div class="tarjeta-mision" >
                         <h1 class="sub-title">MISIÓN</h1>
                         <h4 class="text-2">DE NUESTRA EMPRESA</h4>
                         <p class="text-1">
@@ -49,16 +50,38 @@
                             de su zona de influencia con la ejecución de 
                             proyectos basados de tecnologia.
                         </p>
-                    </div>
+                </div>
+            </div>
+        </div>
+            
+            
+        <div class="img-vision" style="background-image: url('./imagenes/nosotros/Mesa_de_trabajo_6.png');"  >
+            <!-- <img src="./imagenes/nosotros/Mesa_de_trabajo_5.png" alt="" height="100%" width="100%" style="z-index: -2; position: absolute;"> -->
+            <div class="row">
+                <div class="administrativo">
+                    <img src="./imagenes/nosotros/Mesa_de_trabajo_4.png" alt="" class="img-administrativo d-none d-sm-none d-lg-block" height="100%">
+                </div>    
+                <div class="tarjeta-vision" >
+                        <h1 class="sub-title">VISIÓN</h1>
+                        <h4 class="text-2">DE NUESTRA EMPRESA</h4>
+                        <p class="text-1">
+                            En el 2030 Future Solutions Development SAS 
+                            será la organización privada más reconocida 
+                            del departamento de Boyacá, que promueva el 
+                            talento humano regional e impulse el crecimiento 
+                            de la sociedad boyacense, con la apropiación de 
+                            tecnología y desarrollos innovadores mediante 
+                            la ejecución de proyectos de investigación y 
+                            aplicación en ciencia y tecnologia.
+
+
+
+                        </p>
                 </div>
             </div>
             
             
         </div>
-
-     
-    <br>
-
 
     </div>
     
