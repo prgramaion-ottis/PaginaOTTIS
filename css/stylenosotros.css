@@ -14,31 +14,89 @@
     background:linear-gradient(to right, #00528D, #001C51);
     padding-top: 2%;
     height: 500px;
+    
 }
 .text-1{
     font-family: 'OTTIS';
     color: white;
+    text-align: center;
+    padding-right: 5%;
 }
+.text-2{
+    text-align: center;
+    font-family: 'OTTIS';
+    color: #00718d;
+    padding-right: 5%;
+}
+.sub-title{
+    font-family: 'OTTIS_Titulo1'; 
+    color: white;
+    text-align: center;
+}
+
 img.vehiculos{
     opacity: 0.5;
 }
-.img-vision{
+.img-mision{
     background-image: url("../imagenes/nosotros/Mesa_de_trabajo_5.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 500px;
+    background-size: cover;
+    /* height: 100vh; */
+    /* background-repeat: no-repeat; */
+    min-height: 80vh;
+    max-height: 100vh;
+
 }
 .img-cracks{
+    padding-top: 5%;
+    padding-bottom: 5%;
     height: 500px;
+    min-height: 250px;
+    /* height: 500px; */
+    z-index: 3;
+    /* position: absolute; */
+}
+.tarjeta-mision{
+    background-color: #001C51;
+    position: relative;
+    margin-top: -80%;
+    margin-left: 130%;
+    margin-right: 5%;
+    padding: 5% 1% 5% 5%;
+
+    max-height: 400px;
 }
 
-@media (max-width:991px) and (min-width:150px){
-
-    .vehiculos{
-        display: none!important;
+@media (max-width:991px) and (min-width:750px){
+    .nosotros{
+        height: 300px;
     }
-    .text-1{
-        width: 100%;
+    .tarjeta-mision{
+        align: center;
+        width: 300px;
     }
-    
 }
+@media(max-width:990px) {
+    .tarjeta-mision{
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 7%;
+        margin-right: 5%;
+        align: center;
+        width: 300px;
+    }
+}
+@media(max-width:1200px) and (min-width:9910px) {
+    .text-2{
+        font-size: small;
+    }.tarjeta-mision{
+        margin-top: -80%;
+        margin-left: 150%;
+        margin-right: 5%;
+        align: center;
+        width: 400px;
+    }
+    .img-cracks{
+        left: 100px;
+    }
+}
+
