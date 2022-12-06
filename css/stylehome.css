@@ -6,21 +6,21 @@
 @media (max-width:768px) and (min-width:150px){
 .wellcome{
     position: absolute;
-    top: 18vw;
+    top: 19vw;
     font-family: 'OTTIS_Titulo1'; 
     color: white;
     font-size: 8vw; 
 }
 .name{
     position: absolute;
-    top: 26vw;
+    top: 26.5vw;
     font-family: 'OTTIS_Titulo2'; 
     color: white;
     font-size: 3.5vw;
 }
 .resource_red{
     position: absolute;
-    top: 27vw;
+    top: 27.5vw;
     width: 40vw;
     height: 7vw;
 }
@@ -60,16 +60,17 @@
 .red_box{
     position: relative;
     background-color: #AE032F;
-    height: 200px;
+    height: 12vw;
 }
 
 
+@media(min-width:768px){
 .payment{
     position: absolute!important;
     top: 3vw;
     font-family: 'OTTIS_Titulo4'; 
     color: white;
-    font-size: 30px;
+    font-size: 2.7vw;
 }
 
 .debt{
@@ -77,37 +78,148 @@
     top: 3vw;
     font-family: 'OTTIS_Titulo4'; 
     color: white;
-    font-size: 30px;
+    font-size: 2.7vw;
 }
+
+.resource2{
+    position: absolute!important;
+    width: 14vw;
+    left: 3vw;
+    top: 3.5vw;
+}
+
+.resource3{
+    position: absolute!important;
+    width: 14vw;
+    left: 1vw;
+    top: 3.5vw;
+}
+
+.id_number{
+    position: absolute!important;
+    top: 6.5vw;
+    left: 3vw;
+    z-index: 2;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #AE032F;
+    height: 2vw;
+    color: white;
+    font-family: 'OTTIS_Titulo4';
+}
+
+.search{
+    position: absolute!important;
+    top: 6.5vw;
+    left: 3.5vw;
+    z-index: 2;
+    font-size: 1.2vw;
+    border-radius: 7px;
+    background-color: #00528d;
+    height: 2vw;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+
+}
+@media(max-width:768px){
+.payment2{
+    position: absolute!important;
+    top: 18vw;
+    left: 1vw;
+    text-align: center;
+    font-family: 'OTTIS_Titulo4'; 
+    color: white;
+    font-size: 6vw;
+}
+
+.debt2{
+    position: absolute!important;
+    top: 3vw;
+    left: 1vw;
+    text-align: center;
+    font-family: 'OTTIS_Titulo4'; 
+    color: white;
+    font-size: 6vw;
+}
+
+.red_box{
+    position: relative;
+    background-color: #AE032F;
+    height: 28vw;
+}
+
+.resource2_2{
+    position: absolute!important;
+    width: 30vw;
+    top: 4vw;
+}
+
+.resource3_2{
+    position: absolute!important;
+    width: 30vw;
+    top: 19vw;
+}
+
+.id_number2{
+    position: absolute!important;
+    top: 11vw;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #AE032F;
+    height: 4.5vw;
+    color: white;
+    font-family: 'OTTIS_Titulo4';
+}
+.search2{
+    position: absolute!important;
+    top: 11vw;
+    left: 3.5vw;
+    font-size: 3vw;
+    border-radius: 7px;
+    background-color: #00528d;
+    height: 4.5vw;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+}
+
+.white_box{
+    position: relative;
+    background-color: white;
+    height: 14vw;
+}
+
+.icon1{
+    position: absolute!important;
+    top: 4vw;
+    left: 25px;
+    width: 21vw;
+}
+
+.icon2{
+    position: absolute!important;
+    top: 4vw;
+    width: 22vw;
+}
+
+.silvia{
+    position: absolute!important;
+    top: 1vw;
+    left: 80px;
+    height: 25vw;
+    z-index: 1;
+}
+
 /*
 
 
-.recurso2{
-    position: absolute;
-    top: 65px;
-    left: 245px;
-    width: 15%;
-}
 
-.recurso3{
-    position: absolute;
-    top: 65px;
-    left: 875px;
-    width: 15%;
-}
 
-.caja_blanca{
-    position: relative;
-    background-color: white;
-    height: 200px;
-}
-
-.icono1{
-    position: absolute;
-    top: 40px;
-    left: -15px;
-    width: 35%;
-}
 
 .texto6{
     position: absolute;
@@ -118,42 +230,7 @@
     font-size: 12px;
     z-index: 1;
 }
-.icono2{
-    position: absolute;
-    top: 35px;
-    left: 760px;
-    width: 30%;
-}
 
-.buscar{
-    position: absolute;
-    top: 110px;
-    left: 720px;
-    z-index: 2;
-    width: 185px;
-    border-color: white;
-    border-style: solid;
-    border-radius: 5px;
-    background-color: #AE032F;
-    height: 25px;
-    color: white;
-    font-family: 'OTTIS_Titulo4';
-}
-
-.buscar2{
-    position: absolute;
-    top: 110px;
-    left: 910px;
-    z-index: 2;
-    border-radius: 7px;
-    width: 70px;
-    background-color: #00528d;
-    height: 25px;
-    border-style: solid;
-    border-color: #00528d;
-    padding: 0px 0px 0px 0px;
-    color: white;
-}
 
 .texto7{
     position: absolute;
@@ -189,12 +266,7 @@
     height: 200px;
 }
 
-.silvia{
-    position: absolute;
-    top: 510px;
-    left: 355px;
-    width: 47%;
-} */
+
 
 /* ---------------- */
 
