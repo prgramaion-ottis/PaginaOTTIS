@@ -15,6 +15,7 @@
 .conecta{
     background:linear-gradient(to right, #00528D, #001C51);
     padding-top: 2%;
+    
 }
 .title-ventajas{
     /* position: absolute; */
@@ -40,4 +41,29 @@
     font-family: 'OTTIS';
     color: #00718d;
     vertical-align: middle;
+}
+.card-slider{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    /* left: 50%; */
+}
+.img-card{
+    height: 150px;
+}
+.carousel-item{
+    left: calc(50% - 175px);
+}
+@media (max-width:769px) {
+    .img-card{
+        height: 120px;
+    }
+    .carousel-item{
+        left: calc(50% - 125px);
+    }
+    .card-slider{
+        width: 250px;
+        height: 370px;
+    }
 }
