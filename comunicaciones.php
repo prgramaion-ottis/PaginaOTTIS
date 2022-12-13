@@ -29,7 +29,7 @@ require("templates/header.html");
                 <div class="col-sm-5 offset-1">
                     <img class="img-card" src="./imagenes/mejor_internet/hogar.png" alt="Servivio Hogar">
                 </div>
-                <div class="card-body col-sm-5 col-11">
+                <div class="card-body col-md-5 col-11">
                     <h1 class="card-title title-card"><b>SERVICIO</b> </h1>
                     <h1 class="sub-title-card"><span>HOGAR</span></h1>
                     <p class=" text-card">OTTIS Comunicaciones suministra el mejor internet a viviendad urbanas y rurales con las <span id="resaltado">MEJORES VELOCIDADES</span>.</p>
@@ -41,7 +41,7 @@ require("templates/header.html");
                 <div class="col-sm-5 offset-1">
                     <img class="img-card" src="./imagenes/mejor_internet/estatal.png" alt="Servivio Hogar">
                 </div>
-                <div class="card-body col-sm-5 col-11">
+                <div class="card-body col-md-5 col-11">
                     <h1 class="card-title title-card"><b>SERVICIO</b> </h1>
                     <h1 class="sub-title-card"><span>EMPRESARIAL</span></h1>
                     <p class="t text-card">Los <span id="resaltado">MEJORES SERVICIOS</span>, que permitiran a tu empresa estar mas cerca de tus clientes, con los mejores tiempos de respuesta.</p>
@@ -53,7 +53,7 @@ require("templates/header.html");
                 <div class="col-sm-5 offset-1">
                     <img class="img-card" src="./imagenes/mejor_internet/estatal.png" alt="Servivio Hogar">
                 </div>
-                <div class="card-body col-sm-5 col-11">
+                <div class="card-body col-md-5 col-11">
                     <h1 class="card-title title-card"><b>SERVICIOS</b> </h1>
                     <h1 class="sub-title-card"><span>ESTATALES</span></h1>
                     <p class="t text-card">Los Servicios prestados a organizaciones estatales cuentan con características técnicas preferentes y de <span id="resaltado">INMEDIATA ATENCIÓN</span>.</p>
