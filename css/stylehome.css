@@ -124,6 +124,7 @@
 
 
 }
+
 @media(max-width:768px){
 .payment2{
     position: absolute!important;
@@ -198,76 +199,380 @@
     position: absolute!important;
     top: 4vw;
     left: 25px;
-    width: 21vw;
+    width: 26%;
 }
 
 .icon2{
     position: absolute!important;
     top: 4vw;
-    width: 22vw;
+    left: 11%;
+    width: 30%;
 }
 
 .silvia{
     position: absolute!important;
-    top: 1vw;
+    top: 7%;
     left: 80px;
-    height: 25vw;
-    z-index: 1;
-}
-
-/*
-
-
-
-
-
-.texto6{
-    position: absolute;
-    top: 70px;
-    left: 130px;
-    font-family: 'OTTIS_Titulo5'; 
-    color: white;
-    font-size: 12px;
+    height: 210%;
     z-index: 1;
 }
 
 
-.texto7{
-    position: absolute;
-    top: 116px;
-    left: 130px;
-    font-family: 'OTTIS_Titulo5'; 
-    color: white;
-    font-size: 15px;
-    z-index: 1;
-}
-.texto8{
-    position: absolute;
-    top: 80px;
-    left: 860px;
-    font-family: 'OTTIS_Titulo6'; 
-    color: white;
-    font-size: 17px;
-    z-index: 1;
-}
-.texto9{
-    position: absolute;
-    top: 100px;
-    left: 860px;
-    font-family: 'OTTIS_Titulo6'; 
-    color: white;
-    font-size: 24px;
-    z-index: 1;
-}
-
-.caja_gris{
+.grey_box{
     position: relative;
     background-color: rgb(216, 214, 214);
+    height: 2em;
+}
+
+.pay{
+    position: absolute!important;
+    top: 29%;
+    width: 7.2%;
+    left: 5%;
+}
+.text_pay{
+    position: absolute!important;
+    top: 30%;
+    left: 13%;
+    color: grey;
+    font-family: 'OTTIS_Titulo5';
+    font-size: 260%;
+}
+
+.efecty{
+    position: absolute!important;
+    border-radius: 5px;
+    top: 20%;
+    left: 34%;
+    width: 8%;
+    
+}
+
+.agreement{
+    position: absolute!important;
+    background-color: #00528d;
+    height: 54%;
+    width: 15%;
+    border-radius: 0px 5px 5px 0px;
+    left: 42%;
+    top: 24%;
+   
+}
+.text_efecty{
+    position: absolute!important;
+    color: white;
+    margin-top: 10%;
+    margin-left: 28%;
+    font-size: 2vw;
+    font-family: 'OTTIS_Titulo5';
+}
+.text_efecty2{
+    position: absolute!important;
+    margin-top: 26%;
+    margin-left: 22%;
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'OTTIS_Titulo5';
+}
+.text_efecty3{
+    position: absolute!important;
+    margin-top: 36%;
+    margin-left: 13%;
+    color: white;
+    font-size: 1.2vw;
+    font-family: 'OTTIS_Titulo3';
+}
+
+.my_pay{
+    position: absolute!important;
+    border-radius: 5px;
+    width: 15%;
+    left: 65%;
+    top: 24%;
+}
+
+.pay_line{
+    position: absolute!important;
+    background-color: #00528d;
+    height: 46%;
+    width: 15%;
+    border-radius: 0px 5px 5px 0px;
+    left: 80%;
+    top: 28%;
+}
+.text_pay_line{
+    position: absolute!important;
+    color: white;
+    margin-top: 4%;
+    margin-left: 16%;
+    font-size: 2vw;
+    font-family: 'OTTIS_Titulo5';
+}
+.text_pay_line2{
+    position: absolute!important;
+    margin-top: 20%;
+    margin-left: 28%;
+    color: white;
+    font-size: 2.3vw;
+    font-family: 'OTTIS_Titulo5';
+}
+.blue_box{
+    position: relative;
+    background-color: #001c51;
+    height: 47vw;
+}
+.img_group{
+    position: absolute!important;
+    top: 2%;
+    left: 30%;
+    width: 70%;
+    z-index: 1;
+}
+
+.apps{
+    position: absolute!important;
+    top: 7%;
+    width: 4%;
+}
+
+.text_name{
+    position: absolute!important;
+    top: 40%;
+    font-family: 'OTTIS_Titulo4'; 
+    color: white;
+    font-size: 5vw; 
+}
+.text_Internet{
+    position: absolute!important;
+    top: 50%;
+    font-family: 'OTTIS_Titulo6'; 
+    color: white;
+    font-size: 2vw;
+}
+
+.resource_red3{
+    position: absolute!important;
+    top: 51%;
+    width: 26%;
+    height: 8%;
+}
+
+.description2{
+    position: absolute!important;
+    top: 60%;
+    font-family: 'OTTIS_Titulo3'; 
+    color: white;
+    font-size: 1.1vw;
+}
+.text_exclusive{
+    color: white;
+    position: absolute!important;
+    top: 75%;
+    left: 34%;
+    font-family: 'OTTIS_Titulo5';
+    font-size: 2.7vw;
+}
+.cloud{
+    position: absolute!important;
+    width: 40%;
+    top: 32%;
+    left: 23%;
+    z-index: 2;
+}
+
+.cloud2{
+    position: absolute!important;
+    width: 45%;
+    top: 1%;
+    z-index: 0;
+    left: 31%;
+}
+
+.cloud3{
+    position: absolute!important;
+    width: 25%;
+    top: 5%;
+    z-index: 2;
+    left: 65%;
+}
+
+.cloud4{
+    position: absolute!important;
+    width: 54%;
+    top: 25%;
+    z-index: 0;
+    left: 46%;
+}
+
+.cloud5{
+    position: absolute!important;
+    width: 54%;
+    top: 1%;
+    z-index: 0;
+    left: 52%;
+}
+
+@media(max-width:768px){
+.white_box{
+    position: relative;
+    background-color: white;
+    height: 40vw;
+}
+    
+
+.icon3{
+    position: absolute!important;
+    top: 10%;
+    width: 70%;
+    left: 15%;
+}
+
+.icon4{
+    position: absolute!important;
+    top: 55%;
+    left: 15%;
+    width: 70%;
+}
+}
+
+@media(max-width:768px){
+
+.grey_box{
+    position: relative;
+    background-color: rgb(216, 214, 214);
+    height: 100vw;
+}
+
+.pay1{
+    position: absolute!important;
+    top: 10%;
+    width: 18vw;
+    left: 22%;
+}
+
+.text_pay1{
+    position: absolute!important;
+    top: 10%;
+    left: 43%;
+    color: grey;
+    font-family: 'OTTIS_Titulo5';
+    font-size: 8vw;
+}
+
+.efecty1{
+    position: absolute!important;
+    border-radius: 5px;
+    top: 40%;
+    left: 22%;
+    width: 18vw;        
+}    
+
+.agreement1{
+    position: absolute!important;
+    background-color: #00528d;
+    height: 19%;
+    width: 40%;
+    border-radius: 0px 5px 5px 0px;
+    left: 41%;
+    top: 42%;       
+}
+
+.text_efecty_sm{
+    position: absolute!important;
+    color: white;
+    margin-top: 5%;
+    margin-left: 32%;
+    font-size: 6vw;
+    font-family: 'OTTIS_Titulo5';
+}
+
+.text_efecty2_sm{
+    position: absolute!important;
+    margin-top: 20%;
+    margin-left: 20%;
+    color: white;
+    font-size: 4.5vw;
+    font-family: 'OTTIS_Titulo5';
+}
+
+.text_efecty3_sm{
+    position: absolute!important;
+    margin-top: 32%;
+    margin-left: 16%;
+    color: white;
+    font-size: 3.7vw;
+    font-family: 'OTTIS_Titulo3';
+}
+    
+.my_pay1{
+    position: absolute!important;
+    border-radius: 5px;
+    width: 28vw;
+    left: 16%;
+    top: 73%;
+}
+    
+.pay_line1{
+    position: absolute!important;
+    background-color: #00528d;
+    height: 15%;
+    width: 40%;
+    border-radius: 0px 5px 5px 0px;
+    left: 46%;
+    top: 74%;
+}
+
+.text_pay_line_sm{
+    position: absolute!important;
+    color: white;
+    margin-top: 2%;
+    margin-left: 22%;
+    font-size: 5vw;
+    font-family: 'OTTIS_Titulo5';
+}
+
+.text_pay_line2_sm{
+    position: absolute!important;
+    margin-top: 15%;
+    margin-left: 26%;
+    color: white;
+    font-size: 7vw;
+    font-family: 'OTTIS_Titulo5';
+}
+}
+
+.exclusive{
+    position: relative;
+    background-color: lightgrey;
     height: 200px;
 }
 
+.float_box1{
+    position: absolute!important;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    bottom: -25px;
+    z-index: 2;
+}
 
+.float_box2{
+    position: absolute!important;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    bottom: -25px;
+    z-index: 2;
+}
 
+.float_box3{
+    position: absolute!important;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    bottom: -25px;
+    z-index: 2;
+}
 /* ---------------- */
 
 

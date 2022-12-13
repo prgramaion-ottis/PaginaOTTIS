@@ -29,3 +29,13 @@
     font-family: 'OTTIS';
     src: url('../tipografias/MADE TOMMY Regular_PERSONAL USE.otf');
 }
+
+@font-face {
+    font-family: 'OTTIS_Titulo7';
+    src: url('../tipografias/MADE TOMMY Medium Outline_PERSONAL USE.otf');
+}
+
+@font-face {
+    font-family: 'OTTIS_Titulo8';
+    src: url('../tipografias/MADE TOMMY Medium_PERSONAL USE.otf');
+}
