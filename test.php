@@ -15,6 +15,7 @@ require("templates/header.html");
             </div>
         </div> 
         <div class="div-test" style="z-index:-10;">
+        <br>
             <div class="title-test col-12">
                     <h1 class="title-text">
                         REALIZA TU TEST DE VELOCIDAD,
@@ -23,10 +24,14 @@ require("templates/header.html");
                         SIGUIENDO LOS SIGUIENTES PASOS:
                     </h1>
             </div>
-            <div class="row">
-                <div class="card-body col-4">
-                        <h5 class="sub-title-card col-8">Conecta tu equipo</h5>
-                        <!-- <h5 class="card-title title-card"> </h5> -->
+            <div class="row container row-card">
+                <div class="card col-12 col-sm-4 col-md-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <h5 class="sub-title-card col-8"><b>Conecta tu equipo</b> </h5>
+                            <img src="./imagenes/velocidad/paso_1.png" alt="" class="col-4 img-pasos" >
+                        </div>
+                            <!-- <h5 class="card-title title-card"> </h5> -->
                         <p class="card-text text-card">Si estas conectado por la red
                             Mide siempre la velocidad con
                             el equipo de cómputo
@@ -41,9 +46,16 @@ require("templates/header.html");
                             sea inferior a la que llega
                             realmente al router.
                         </p>
+                    </div>
+                        
                 </div>
-                <div class="card-body col-4">
-                        <h5 class="sub-title-card col-8">Cierra las ventanas de navegación</h5>
+                <div class="card col-12 col-sm-4 col-md-4">
+                <div class="card-body">
+                    <div class="row">
+                        <h5 class="sub-title-card col-8 "><b>Cierra las ventanas de navegación</b> </h5>
+                        <img src="./imagenes/velocidad/paso_2.png" alt="" class="col-4 img-pasos" >
+                    </div>
+                        
                         <!-- <h5 class="card-title title-card"> </h5> -->
                         <p class="card-text text-card">En el momento de realizar la
                             medición, es muy importante
@@ -59,22 +71,30 @@ require("templates/header.html");
                             serán representativos.
                         </p>
                 </div>
-                <div class="card-body col-4">
-                    <h5 class="sub-title-card col-8">Realiza la prueba</h5>
-                    <!-- <h5 class="card-title title-card"> </h5> -->
-                    <p class="card-text text-card">
-                    Puedes realizar la prueba con
-                    nuestro medidor o con otros
-                    medidores, te sugerimos
-                    realizar varios test sobre
-                    servidores diferentes. Ten en
-                    cuenta que en las mediciones
-                    internacionales pasan por
-                    redes de diferentes
-                    operadores afectando el
-                    resultado de la medición
-                    </p>
                 </div>
+                <div class="card col-12 col-sm-4 col-md-4">
+                    <div class="card-body">
+                        <div class="row">
+                            <h5 class="sub-title-card col-8"><b>Realiza la prueba</b></h5>
+                            <img src="./imagenes/velocidad/paso_3.png" alt="" class="col-4 img-pasos">
+                        </div>
+                        
+                        <!-- <h5 class="card-title title-card"> </h5> -->
+                        <p class="card-text text-card">
+                        Puedes realizar la prueba con
+                        nuestro medidor o con otros
+                        medidores, te sugerimos
+                        realizar varios test sobre
+                        servidores diferentes. Ten en
+                        cuenta que en las mediciones
+                        internacionales pasan por
+                        redes de diferentes
+                        operadores afectando el
+                        resultado de la medición
+                        </p>
+                    </div>
+                </div>
+                
             </div>    
         
             <!-- <div class=" col-9 test-speet">
@@ -99,6 +119,9 @@ require("templates/header.html");
                 </p>
             </div>
             
+        </div>
+        <div class="test col-12">
+            <iframe width="100%" height="650px" frameborder="0" src="https://ottis.speedtestcustom.com"></iframe>
         </div>
 
 

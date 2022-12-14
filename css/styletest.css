@@ -14,7 +14,7 @@
 }
 .div-test{
     background:linear-gradient(to right, #00528D, #001C51);
-    height: 100%;
+    min-height: 75vh;
 }
 .text-date{
     /* position: absolute; */
@@ -25,22 +25,30 @@
 }
 .text-card{
     /* font-size: 20px; */
-    text-align: center;
+    text-align: justify;
     font-family: 'OTTIS_Titulo5';
     color: #ffffff;
+    bottom: 0%;
 }
 .sub-title-card{
+    top: calc(50% - 11px);
     font-size: 22px;
     font-family: 'OTTIS';
     text-align: left;
     color: #ffffff;
 }
 .card-body{
-    padding: 2%;
+    padding: 5%;
     border-radius: 40px;
     background-color: #001C51;
-    height: 300px;
+    height: 100%;
+
 }
+.card{
+    background-color: transparent;
+    border: none;
+}
+
 .title-text{
     text-align: center;
     font-family: 'OTTIS_Titulo1'; 
@@ -50,4 +58,12 @@
     text-align: center;
     font-family: 'OTTIS_Titulo5'; 
     color: #ffffff;
+}
+.row-card{
+    padding: 5%;
+    height: 75%;
+}
+.img-pasos{
+    height: 10vh;
+    width: auto;
 }
