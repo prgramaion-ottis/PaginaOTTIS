@@ -221,63 +221,100 @@
 .grey_box{
     position: relative;
     background-color: rgb(216, 214, 214);
-    height: 2em;
+    height: 14vw;
 }
 
 .pay{
     position: absolute!important;
-    top: 29%;
-    width: 7.2%;
-    left: 5%;
+    top: 4vw;
+    width: 5vw;
+    left: 4vw;
 }
 .text_pay{
     position: absolute!important;
-    top: 30%;
-    left: 13%;
+    top: 4vw;
+    left: 9.5vw;
     color: grey;
     font-family: 'OTTIS_Titulo5';
-    font-size: 260%;
+    font-size: 2.2vw;
+}
+
+@media(min-width:1400px){
+
+    .efecty-left{
+        position: absolute!important;
+        border-radius: 5px;
+        top: 3vw;
+        left: 24vw;
+        width: 5.5vw;
+    }
+    .agreement-left{
+        position: absolute!important;
+        background-color: #00528d;
+        left: 29.5vw;
+        top: 3.2vw;
+        height: 6.5vw;
+        width: 11vw;
+        border-radius: 0px 5px 5px 0px; 
+    }
+    .my_pay-left{
+        position: absolute!important;
+        border-radius: 5px;
+        width: 9vw;
+        left: 45vw;
+        top: 3.5vw;
+    }
+    
+    .pay_line-left{
+        position: absolute!important;
+        background-color: #00528d;
+        height: 5vw;
+        width: 10vw;
+        border-radius: 0px 5px 5px 0px;
+        left: 54vw;
+        top: 3.8vw;
+    }
+    
 }
 
 .efecty{
     position: absolute!important;
     border-radius: 5px;
-    top: 20%;
-    left: 34%;
-    width: 8%;
+    top: 3vw;
+    left: 32vw;
+    width: 5.5vw;
     
 }
 
 .agreement{
     position: absolute!important;
     background-color: #00528d;
-    height: 54%;
-    width: 15%;
-    border-radius: 0px 5px 5px 0px;
-    left: 42%;
-    top: 24%;
-   
+    left: 37.5vw;
+    top: 3.2vw;
+    height: 6.5vw;
+    width: 11vw;
+    border-radius: 0px 5px 5px 0px; 
 }
 .text_efecty{
     position: absolute!important;
     color: white;
-    margin-top: 10%;
-    margin-left: 28%;
+    margin-top: 0.5vw;
+    margin-left: 2.75vw;
     font-size: 2vw;
     font-family: 'OTTIS_Titulo5';
 }
 .text_efecty2{
     position: absolute!important;
-    margin-top: 26%;
-    margin-left: 22%;
+    margin-top: 2.5vw;
+    margin-left: 2.1vw;
     color: white;
     font-size: 1.3vw;
     font-family: 'OTTIS_Titulo5';
 }
 .text_efecty3{
     position: absolute!important;
-    margin-top: 36%;
-    margin-left: 13%;
+    margin-top: 3.7vw;
+    margin-left: 0.9vw;
     color: white;
     font-size: 1.2vw;
     font-family: 'OTTIS_Titulo3';
@@ -286,41 +323,43 @@
 .my_pay{
     position: absolute!important;
     border-radius: 5px;
-    width: 15%;
-    left: 65%;
-    top: 24%;
+    width: 9vw;
+    left: 60vw;
+    top: 3.5vw;
 }
 
 .pay_line{
     position: absolute!important;
     background-color: #00528d;
-    height: 46%;
-    width: 15%;
+    height: 5vw;
+    width: 10vw;
     border-radius: 0px 5px 5px 0px;
-    left: 80%;
-    top: 28%;
+    left: 69vw;
+    top: 3.8vw;
 }
 .text_pay_line{
     position: absolute!important;
     color: white;
-    margin-top: 4%;
-    margin-left: 16%;
-    font-size: 2vw;
+    margin-top: 0.5;
+    margin-left: 1.2vw;
+    font-size: 1.8vw;
     font-family: 'OTTIS_Titulo5';
 }
 .text_pay_line2{
     position: absolute!important;
-    margin-top: 20%;
-    margin-left: 28%;
+    margin-top: 1.7vw;
+    margin-left: 2.2vw;
     color: white;
     font-size: 2.3vw;
     font-family: 'OTTIS_Titulo5';
 }
+
 .blue_box{
     position: relative;
     background-color: #001c51;
     height: 47vw;
 }
+
 .img_group{
     position: absolute!important;
     top: 2%;
@@ -541,38 +580,140 @@
 }
 }
 
-.exclusive{
-    position: relative;
-    background-color: lightgrey;
-    height: 200px;
-}
 
 .float_box1{
     position: absolute!important;
-    background-color: aqua;
-    height: 50px;
-    width: 50px;
-    bottom: -25px;
+    background-color: white;
+    height: 6vw;
+    width: 14vw;
+    bottom: -3vw;
     z-index: 2;
+    border-radius: 20px;
 }
 
 .float_box2{
     position: absolute!important;
-    background-color: aqua;
-    height: 50px;
-    width: 50px;
-    bottom: -25px;
+    background-color: white;
+    height: 6vw;
+    width: 14vw;
+    bottom: -3vw;
     z-index: 2;
+    border-radius: 20px;
 }
 
 .float_box3{
     position: absolute!important;
-    background-color: aqua;
-    height: 50px;
-    width: 50px;
-    bottom: -25px;
+    background-color: white;
+    height: 6vw;
+    width: 14vw;
+    bottom: -3vw;
     z-index: 2;
+    border-radius: 20px;
 }
+.exclu_text_1{
+    color: #00528d;
+    font-size: 0.8vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.exclu_text_2{
+    color: #00528d;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.exclu_text_3{
+    color: #00528d;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.exclusive{
+    position: relative;
+    background-color: rgb(231, 231, 231);
+    height: 35vw;
+}
+
+.silvia_exclu{
+    position: absolute!important;
+    width: 30vw;
+    left: 4vw;
+    bottom: -2.7vw;
+    z-index: 1;
+}
+
+.par_exclusive{
+    position: absolute!important;
+    color: #00528d;
+    top: 10.2vw;
+    font-size: 1.4vw;
+    font-family: 'OTTIS_Titulo3';
+}
+
+.title_exclusive{
+    position: absolute!important;
+    color: #00528d;
+    top: 8vw;
+    font-size: 2vw;
+    font-family: 'OTTIS_Titulo5';
+}
+
+.register{
+    position: absolute!important;
+    top: 26vw;
+    z-index: 2;
+    width: 11vw;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    background-color: #00528d;
+    height: 4vw;
+    color: white;
+    padding: 5px;
+}
+
+.attention_channel{
+    position: relative;
+    background-color: rgb(180, 180, 180);
+    height: 40vw;
+
+}
+
+.channel_text{
+    color: white;
+    font-size: 3.5vw;
+    font-family: 'OTTIS_Titulo3';
+    text-align: center;
+    padding-top: 4%;
+}
+.pbx_text{
+    color: white;
+    font-size: 2vw;
+    font-family: 'OTTIS_Titulo4';
+    text-align: center;
+}
+
+.bill_and_admon{
+    position: absolute!important;
+    background-color: white;
+    border-top: 3vw solid rgb(231, 231, 231);
+    height: 25vw;
+    width: 23vw;
+    left: 34vw;
+    top: 12vw;
+    border-radius: 15px;
+
+
+}
+
 /* ---------------- */
 
 
