@@ -60,50 +60,6 @@ require("templates/header.html");
                 </div>
             </div>  
         </div>
-        <!-- <br>
-        <div class="row col-12 ">
-          <h1 class="title-ventajas">NUESTRAS VENTAJAS</h1> 
-        </div>
-          <div class="carousel-item active">
-            <div class="card-slider" >  
-                    <img class="img-card" src="./imagenes/cobertura/Mesa_de_trabajo_5.png" alt="Card image disponibilidadd">
-                    <div class="card-body">
-                        <h5 class="card-title title-card"><b>ALTA</b> </h5>
-                        <h5 class="sub-title-card"><span>DISPONIBILIDAD</span></h5>
-                        <p class="card-text text-card">Servicio contínuo y permanente con disponibilidad superior al 95% mensual</p>
-                    </div>
-            </div>  
-          </div>
-          <div class="carousel-item">
-            <div class="card-slider" >  
-                    <img class="img-card" src="./imagenes/cobertura/Mesa_de_trabajo_8.png" alt="Card image disponibilidadd">
-                    <div class="card-body">
-                        <h5 class="card-title title-card"><b>VELOCIDAD</b> </h5>
-                        <h5 class="sub-title-card"><span>SIMÉTRICA</span></h5>
-                        <p class="card-text text-card">Nuestro servicio de internet en fibra óptica es completamente simetrico (igual velocidad de carga y descarga)</p>
-                    </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card-slider" >  
-                    <img class="img-card" src="./imagenes/cobertura/Mesa_de_trabajo_7.png" alt="Card image disponibilidadd">
-                    <div class="card-body">
-                        <h5 class="card-title title-card"><b>SERVICIO</b> </h5>
-                        <h5 class="sub-title-card"><span>POSTVENTA</span></h5>
-                        <p class="card-text text-card">Nuestra mesa de servicios TI permite entregar soporte técnico oportuno y de calidad</p>
-                    </div>
-            </div>
-          </div>
-          <div class="carousel-item" >
-            <div class="card-slider" >  
-                    <img class="img-card" src="./imagenes/cobertura/Mesa_de_trabajo_6.png" alt="Card image disponibilidadd">
-                    <div class="card-body">
-                        <h5 class="card-title title-card"><b>REDUNDANCIA</b> </h5>
-                        <h5 class="sub-title-card"><span>GARANTIZADA</span></h5>
-                        <p class="card-text text-card">Contamos con diversos proveedores nacionales simultáneos con canales dedicados que garantizan la disponibilidad del servicio en todo momento</p>
-                    </div>
-            </div>
-          </div> -->
           
         </div>
 
