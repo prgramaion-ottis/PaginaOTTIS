@@ -1,0 +1,53 @@
+#div-title{
+    top: -20%;
+    /* display: block; */
+    position: relative;
+    z-index: 2;
+    /* background-color: rgb(0, 66, 66); */
+}
+
+.wellcome{
+    position: absolute;
+    top: 20vw;
+    font-family: 'OTTIS_Titulo1';
+    color: white;
+}
+.div-test{
+    background:linear-gradient(to right, #00528D, #001C51);
+    height: 100%;
+}
+.text-date{
+    /* position: absolute; */
+    text-align: center;
+    font-family: 'OTTIS_Titulo1'; 
+    color: #ffffff;
+    /* font-size: 4vw;  */
+}
+.text-card{
+    /* font-size: 20px; */
+    text-align: center;
+    font-family: 'OTTIS_Titulo5';
+    color: #ffffff;
+}
+.sub-title-card{
+    font-size: 22px;
+    font-family: 'OTTIS';
+    text-align: left;
+    color: #ffffff;
+}
+.card-body{
+    padding: 2%;
+    border-radius: 40px;
+    background-color: #001C51;
+    height: 300px;
+}
+.title-text{
+    text-align: center;
+    font-family: 'OTTIS_Titulo1'; 
+    color: #ffffff;
+}
+.sub-title-text{
+    text-align: center;
+    font-family: 'OTTIS_Titulo5'; 
+    color: #ffffff;
+}

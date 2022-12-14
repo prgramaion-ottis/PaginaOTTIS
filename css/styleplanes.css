@@ -113,7 +113,8 @@
     border-color: #00718d;
 }
 .carousel-inner{
-    background-color: #001C51; height: 550px
+    background-color: #001C51;
+    height: 550px;
 }
 @media(max-width:768px){
     .card-slider{
