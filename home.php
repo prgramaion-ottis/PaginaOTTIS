@@ -195,13 +195,13 @@ require("templates/header.html");
                                     de acceso a internet, expertos en el área de telecomunicaciones,<br>
                                     innovamos en diseño de Hardware y Software a la medida<br>
             </p>
-            <p class="text_exclusive">EXCLUSIVO <strong>DE OTTIS</strong></p>
-            <img class="apps offset-1" src="./iconos/apps.svg" alt="">
-            <img class="cloud " src="./imagenes/home/nube4.png" alt="">
-            <img class="cloud2" src="./imagenes/home/nube3.png" alt="">
-            <img class="cloud3" src="./imagenes/home/nube5.png" alt="">
-            <img class="cloud4" src="./imagenes/home/nube2.png" alt="">
-            <img class="cloud5" src="./imagenes/home/nube3.png" alt="">
+            <p class="text_exclusive d-none d-sm-none d-md-block">EXCLUSIVO <strong>DE OTTIS</strong></p>
+            <!-- <img class="apps offset-1" src="./iconos/apps.svg" alt=""> -->
+            <img class="cloud d-none d-sm-none d-md-block" src="./imagenes/home/nube4.png" alt="">
+            <img class="cloud2 d-none d-sm-none d-md-block" src="./imagenes/home/nube3.png" alt="">
+            <img class="cloud3 d-none d-sm-none d-md-block" src="./imagenes/home/nube5.png" alt="">
+            <img class="cloud4 d-none d-sm-none d-md-block" src="./imagenes/home/nube2.png" alt="">
+            <img class="cloud5 d-none d-sm-none d-md-block" src="./imagenes/home/nube3.png" alt="">
             <div class="offset-2 float_box1 d-none d-sm-none d-md-block">
                 <p class="exclu_text_1">Tenemos excelente calidad en <br>
                                         el servicio, principalmente en la <br>
@@ -218,6 +218,25 @@ require("templates/header.html");
                                         al usuario.
                 </p>
             </div>
+
+            <!-- -----------media screen under 768px-------------- -->
+            <div class="offset-3 float_box1 d-block d-sm-block d-md-none">
+                <p class="exclu_text_1">Tenemos excelente calidad en <br>
+                                        el servicio, principalmente en la <br>
+                                        velocidad de conexión.
+                </p>
+            </div>
+            <div class="offset-3 float_box2 d-block d-sm-block d-md-none">
+                <p class="exclu_text_2">Contamos con <br>
+                                        costos asequibles.
+                </p>
+            </div>
+            <div class="offset-3 float_box3 d-block d-sm-block d-md-none">
+                <p class="exclu_text_3">Canales de atención <br>
+                                        al usuario.
+                </p>
+            </div>
+
         </div>
 
         <!-- ----------------------------------------------------------------- -->
@@ -237,13 +256,137 @@ require("templates/header.html");
 
         <!-- ----------------------------------------------------------------- -->
         <div class="attention_channel">
-            <h2 class="channel_text">CANALES DE <strong>ATENCIÓN</strong></h2>
-            <h3 class="pbx_text">PBX 6017943254 - 6019172166</h3>
-            <div class="bill_and_admon">
-                
 
+            <!-- <div class="first_img">
+                <div class="bill_and_admon">
+                    <h3 class="text_admon"><strong>FACTURACIÓN<br>Y ADMINISTRACIÓN</strong></h3>
+                    <h3 class="text_schedule"><strong>Lunes a Viernes</strong> <br> 
+                                    8:00am - 1:00pm <br> 
+                                    2:00pm - 6:00pm <br>
+                                    <strong>Sábados</strong> <br>
+                                    9:00am - 12:00pm <br>
+                                    facturacion@ottis.com.co
+                    </h3>           
+                </div>
+                <div class="contact_whatsapp">
+                    <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"><strong> 311 491 6907</strong></h3>
+                </div>
+                <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
+            </div> -->
+
+            <!-- -------------------------- -->
+            <!-- <div class="second_img">
+                <div class="bill_and_admon">
+                    <h3 class="text_support"><strong>SOPORTE TÉCNICO</strong></h3>
+                    <h3 class="text_schedule_sup"><strong>Lunes a Sábado</strong> <br> 
+                                    6:00am - 1:00pm <br> 
+                                    <strong>Domingo y Festivos</strong> <br>
+                                    9:00am - 5:00pm <br>
+                                    mesadeservicio@ottis.com.co
+                    </h3>           
+                </div>
+                <div class="contact_whatsapp">
+                    <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 321 289 3978</strong></h3>
+                </div>
+                <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
+            </div>   -->
+              <!-- ----------------------------  -->
+            <!-- <div class="third_img">
+                <div class="bill_and_admon">
+                    <h3 class="text_trade"><strong>COMERCIAL<br>Y VENTAS</strong></h3>
+                    <h3 class="text_schedule_trade"><strong>Lunes a Viernes</strong> <br> 
+                                        8:00am - 1:00pm <br>
+                                        2:00pm - 6:00pm <br> 
+                                        <strong>Sábados</strong> <br>
+                                        9:00am - 12:00pm <br>
+                                        comercial@ottis.com.co
+                    </h3>           
+                </div>
+                <div class="contact_whatsapp">
+                    <h3 class="text_whatsapp_trade">CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 320 499 5482 - 322 609 3107 </strong></h3>
+                </div>
+                <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
+            </div>  -->
+            
+            
+
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <h2 class="channel_text ">CANALES DE <strong>ATENCIÓN</strong></h2>
+                    <h3 class="pbx_text ">PBX 6017943254 - 6019172166</h3>
+                </div>
+                <div class="carousel-item active machete">
+                    <div class="card-slider" >  
+                        <div class="first_img">
+                            <div class="bill_and_admon">
+                                <h3 class="text_admon"><strong>FACTURACIÓN<br>Y ADMINISTRACIÓN</strong></h3>
+                                <h3 class="text_schedule"><strong>Lunes a Viernes</strong> <br> 
+                                                8:00am - 1:00pm <br> 
+                                                2:00pm - 6:00pm <br>
+                                                <strong>Sábados</strong> <br>
+                                                9:00am - 12:00pm <br>
+                                                facturacion@ottis.com.co
+                                </h3>           
+                            </div>
+                            <div class="contact_whatsapp">
+                                <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"><strong> 311 491 6907</strong></h3>
+                            </div>
+                            <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
+                        </div>      
+                    </div>  
+                </div>
+                <div class="carousel-item machete">
+                    <div class="card-slider" >  
+                        <div class="second_img">
+                            <div class="bill_and_admon">
+                                <h3 class="text_support"><strong>SOPORTE TÉCNICO</strong></h3>
+                                <h3 class="text_schedule_sup"><strong>Lunes a Sábado</strong> <br> 
+                                                6:00am - 1:00pm <br> 
+                                                <strong>Domingo y Festivos</strong> <br>
+                                                9:00am - 5:00pm <br>
+                                                mesadeservicio@ottis.com.co
+                                </h3>           
+                            </div>
+                            <div class="contact_whatsapp">
+                                <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 321 289 3978</strong></h3>
+                            </div>
+                            <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
+                        </div>  
+                    </div>
+                </div>
+                <div class="carousel-item machete">
+                    <div class="card-slider" >  
+                        <div class="third_img">
+                            <div class="bill_and_admon">
+                                <h3 class="text_trade"><strong>COMERCIAL<br>Y VENTAS</strong></h3>
+                                <h3 class="text_schedule_trade"><strong>Lunes a Viernes</strong> <br> 
+                                                    8:00am - 1:00pm <br>
+                                                    2:00pm - 6:00pm <br> 
+                                                    <strong>Sábados</strong> <br>
+                                                    9:00am - 12:00pm <br>
+                                                    comercial@ottis.com.co
+                                </h3>           
+                            </div>
+                            <div class="contact_whatsapp">
+                                <h3 class="text_whatsapp_trade">CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 320 499 5482 - 322 609 3107 </strong></h3>
+                            </div>
+                            <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
+                        </div>  
+                    </div>
+                </div>
+                
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span> 
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+                </button>
+                
             </div>
-        </div>
+        </div>   
     </div>
 
 <?php

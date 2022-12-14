@@ -354,6 +354,136 @@
     font-family: 'OTTIS_Titulo5';
 }
 
+@media(max-width:768px){
+    .white_box{
+        position: relative;
+        background-color: white;
+        height: 40vw;
+    }
+        
+    
+    .icon3{
+        position: absolute!important;
+        top: 10%;
+        width: 70%;
+        left: 15%;
+    }
+    
+    .icon4{
+        position: absolute!important;
+        top: 55%;
+        left: 15%;
+        width: 70%;
+    }  
+}
+    
+@media(max-width:768px){
+    
+    .grey_box{
+        position: relative;
+        background-color: rgb(216, 214, 214);
+        height: 100vw;
+    }
+    
+    .pay1{
+        position: absolute!important;
+        top: 10%;
+        width: 18vw;
+        left: 22%;
+    }
+    
+    .text_pay1{
+        position: absolute!important;
+        top: 10%;
+        left: 43%;
+        color: grey;
+        font-family: 'OTTIS_Titulo5';
+        font-size: 8vw;
+    }
+    
+    .efecty1{
+        position: absolute!important;
+        border-radius: 5px;
+        top: 40%;
+        left: 22%;
+        width: 18vw;        
+    }    
+    
+    .agreement1{
+        position: absolute!important;
+        background-color: #00528d;
+        height: 19%;
+        width: 40%;
+        border-radius: 0px 5px 5px 0px;
+        left: 41%;
+        top: 42%;       
+    }
+    
+    .text_efecty_sm{
+        position: absolute!important;
+        color: white;
+        margin-top: 5%;
+        margin-left: 32%;
+        font-size: 6vw;
+        font-family: 'OTTIS_Titulo5';
+    }
+    
+    .text_efecty2_sm{
+        position: absolute!important;
+        margin-top: 20%;
+        margin-left: 20%;
+        color: white;
+        font-size: 4.5vw;
+        font-family: 'OTTIS_Titulo5';
+    }
+    
+    .text_efecty3_sm{
+        position: absolute!important;
+        margin-top: 32%;
+        margin-left: 16%;
+        color: white;
+        font-size: 3.7vw;
+        font-family: 'OTTIS_Titulo3';
+    }
+        
+    .my_pay1{
+        position: absolute!important;
+        border-radius: 5px;
+        width: 28vw;
+        left: 16%;
+        top: 73%;
+    }
+        
+    .pay_line1{
+        position: absolute!important;
+        background-color: #00528d;
+        height: 15%;
+        width: 40%;
+        border-radius: 0px 5px 5px 0px;
+        left: 46%;
+        top: 74%;
+    }
+    
+    .text_pay_line_sm{
+        position: absolute!important;
+        color: white;
+        margin-top: 2%;
+        margin-left: 22%;
+        font-size: 5vw;
+        font-family: 'OTTIS_Titulo5';
+    }
+    
+    .text_pay_line2_sm{
+        position: absolute!important;
+        margin-top: 15%;
+        margin-left: 26%;
+        color: white;
+        font-size: 7vw;
+        font-family: 'OTTIS_Titulo5';
+    }
+}
+    
+
 .blue_box{
     position: relative;
     background-color: #001c51;
@@ -381,6 +511,7 @@
     color: white;
     font-size: 5vw; 
 }
+
 .text_Internet{
     position: absolute!important;
     top: 50%;
@@ -403,6 +534,45 @@
     color: white;
     font-size: 1.1vw;
 }
+
+@media(max-width:768px){
+    .text_name{
+        position: absolute!important;
+        top: 5vw;
+        left: 20vw;
+        font-family: 'OTTIS_Titulo4'; 
+        color: white;
+        font-size: 8vw; 
+    }
+    
+    .text_Internet{
+        position: absolute!important;
+        top: 12vw;
+        left: 20vw;
+        font-family: 'OTTIS_Titulo6'; 
+        color: white;
+        font-size: 5vw;
+    }
+
+    .resource_red3{
+        position: absolute!important;
+        top: 15vw;
+        width: 40vw;
+        left: 27vw;
+        height: 6vw;
+    }
+
+    .description2{
+        position: absolute!important;
+        top: 22vw;
+        left: 2vw;
+        font-family: 'OTTIS_Titulo3'; 
+        color: white;
+        font-size: 2.7vw;
+    }
+}
+
+
 .text_exclusive{
     color: white;
     position: absolute!important;
@@ -451,134 +621,6 @@
     left: 52%;
 }
 
-@media(max-width:768px){
-.white_box{
-    position: relative;
-    background-color: white;
-    height: 40vw;
-}
-    
-
-.icon3{
-    position: absolute!important;
-    top: 10%;
-    width: 70%;
-    left: 15%;
-}
-
-.icon4{
-    position: absolute!important;
-    top: 55%;
-    left: 15%;
-    width: 70%;
-}
-}
-
-@media(max-width:768px){
-
-.grey_box{
-    position: relative;
-    background-color: rgb(216, 214, 214);
-    height: 100vw;
-}
-
-.pay1{
-    position: absolute!important;
-    top: 10%;
-    width: 18vw;
-    left: 22%;
-}
-
-.text_pay1{
-    position: absolute!important;
-    top: 10%;
-    left: 43%;
-    color: grey;
-    font-family: 'OTTIS_Titulo5';
-    font-size: 8vw;
-}
-
-.efecty1{
-    position: absolute!important;
-    border-radius: 5px;
-    top: 40%;
-    left: 22%;
-    width: 18vw;        
-}    
-
-.agreement1{
-    position: absolute!important;
-    background-color: #00528d;
-    height: 19%;
-    width: 40%;
-    border-radius: 0px 5px 5px 0px;
-    left: 41%;
-    top: 42%;       
-}
-
-.text_efecty_sm{
-    position: absolute!important;
-    color: white;
-    margin-top: 5%;
-    margin-left: 32%;
-    font-size: 6vw;
-    font-family: 'OTTIS_Titulo5';
-}
-
-.text_efecty2_sm{
-    position: absolute!important;
-    margin-top: 20%;
-    margin-left: 20%;
-    color: white;
-    font-size: 4.5vw;
-    font-family: 'OTTIS_Titulo5';
-}
-
-.text_efecty3_sm{
-    position: absolute!important;
-    margin-top: 32%;
-    margin-left: 16%;
-    color: white;
-    font-size: 3.7vw;
-    font-family: 'OTTIS_Titulo3';
-}
-    
-.my_pay1{
-    position: absolute!important;
-    border-radius: 5px;
-    width: 28vw;
-    left: 16%;
-    top: 73%;
-}
-    
-.pay_line1{
-    position: absolute!important;
-    background-color: #00528d;
-    height: 15%;
-    width: 40%;
-    border-radius: 0px 5px 5px 0px;
-    left: 46%;
-    top: 74%;
-}
-
-.text_pay_line_sm{
-    position: absolute!important;
-    color: white;
-    margin-top: 2%;
-    margin-left: 22%;
-    font-size: 5vw;
-    font-family: 'OTTIS_Titulo5';
-}
-
-.text_pay_line2_sm{
-    position: absolute!important;
-    margin-top: 15%;
-    margin-left: 26%;
-    color: white;
-    font-size: 7vw;
-    font-family: 'OTTIS_Titulo5';
-}
-}
 
 
 .float_box1{
@@ -680,6 +722,104 @@
     padding: 5px;
 }
 
+@media(max-width:768px){
+
+    .exclusive{
+        position: relative;
+        background-color: rgb(231, 231, 231);
+        height: 120vw;
+    }
+
+    .title_exclusive{
+        position: absolute!important;
+        color: #00528d;
+        top: 5vw;
+        left: -23vw;
+        font-size: 5vw;
+        font-family: 'OTTIS_Titulo5';
+    }
+
+    .float_box1{
+        position: absolute!important;
+        background-color: white;
+        height: 14vw;
+        width: 48vw;
+        bottom: -28vw;
+        z-index: 2;
+        border-radius: 20px;
+    }
+    
+    .float_box2{
+        position: absolute!important;
+        background-color: white;
+        height: 14vw;
+        width: 48vw;
+        bottom: -46vw;
+        z-index: 2;
+        border-radius: 20px;
+    }
+    
+    .float_box3{
+        position: absolute!important;
+        background-color: white;
+        height: 14vw;
+        width: 48vw;
+        bottom: -64vw;
+        z-index: 2;
+        border-radius: 20px;
+    }
+    .exclu_text_1{
+        color: #00528d;
+        font-size: 2.8vw;
+        text-align: center;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    
+    .exclu_text_2{
+        color: #00528d;
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    
+    .exclu_text_3{
+        color: #00528d;
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .par_exclusive{
+        position: absolute!important;
+        color: #00528d;
+        top: 70vw;
+        left: -27vw;
+        font-size: 3vw;
+        font-family: 'OTTIS_Titulo3';
+    }
+
+    .register{
+        position: absolute!important;
+        top: 105vw;
+        z-index: 2;
+        width: 25vw;
+        font-size: 2.5vw;
+        left: -12vw;
+        border-radius: 15px;
+        background-color: #00528d;
+        height: 10vw;
+        color: white;
+        padding: 5px;
+    }
+
+}
+
 .attention_channel{
     position: relative;
     background-color: rgb(180, 180, 180);
@@ -704,13 +844,441 @@
 .bill_and_admon{
     position: absolute!important;
     background-color: white;
-    border-top: 3vw solid rgb(231, 231, 231);
+    border-top: 5vw solid rgb(231, 231, 231);
     height: 25vw;
     width: 23vw;
-    left: 34vw;
+    left: 30vw;
     top: 12vw;
     border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+    z-index: 2;
+}
+.contact_whatsapp{
+    position: absolute!important;
+    background-color: #AE032F;
+    height: 5vw;
+    width: 40vw;
+    border-radius: 10px;
+    top: 30vw;
+    left: 16vw;
+    box-shadow: 10px 10px 10px grey;
+    z-index: 3;
+}
 
+.text_admon{
+    color: rgb(129, 129, 129);
+    font-size: 1.8vw;
+    font-family: 'OTTIS_Titulo5';
+    text-align: center;
+    margin-top: -90px;
+
+    
+}
+
+.text_schedule{
+    color: rgb(129, 129, 129);
+    font-size: 1.5vw;
+    font-family: 'OTTIS_Titulo5';
+    text-align: center;
+    padding-top: 12px;
+}
+.text_whatsapp{
+    color: white;
+    font-size: 2.7vw;
+    font-family: 'OTTIS_Titulo3';
+    text-align: center;
+    padding-top: 12px;
+}
+
+.text_whatsapp_trade{
+    color: white;
+    font-size: 1.9vw;
+    font-family: 'OTTIS_Titulo3';
+    text-align: center;
+    padding-top: 25px;
+}
+
+.silvia_channel{
+    position: absolute!important;
+    width: 25vw;
+    left: 1.3vw;
+    top: 9.3vw;
+    z-index: 1;
+}
+@media(min-width:1400px) and (max-width:1669px){
+    .text_admon{
+        margin-top: -70px;
+    }
+
+}
+@media(min-width:1200px) and (max-width:1400px){
+    .text_admon{
+        margin-top: -60px;
+    }
+    .silvia_channel{
+        position: absolute!important;
+        width: 25vw;
+        left: 3.4vw;
+        top: 9.3vw;
+    }
+    .bill_and_admon{
+        position: absolute!important;
+        background-color: white;
+        border-top: 5vw solid rgb(231, 231, 231);
+        height: 25vw;
+        width: 23vw;
+        left: 34vw;
+        top: 12vw;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 2;
+    }
+    .contact_whatsapp{
+        position: absolute!important;
+        background-color: #AE032F;
+        height: 5vw;
+        width: 40vw;
+        border-radius: 10px;
+        top: 30vw;
+        left: 20vw;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 3;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    .text_admon{
+        color: rgb(129, 129, 129);
+        font-size: 1.6vw;
+        font-family: 'OTTIS_Titulo5';
+        text-align: center;
+        margin-top: -50px;
+        
+    }
+
+    .silvia_channel{
+        position: absolute!important;
+        width: 25vw;
+        left: 3vw;
+        top: 9.3vw;
+        z-index: 1;
+    }
+    .bill_and_admon{
+        position: absolute!important;
+        background-color: white;
+        border-top: 5vw solid rgb(231, 231, 231);
+        height: 25vw;
+        width: 23vw;
+        left: 34vw;
+        top: 12vw;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 2;
+    }
+    .contact_whatsapp{
+        position: absolute!important;
+        background-color: #AE032F;
+        height: 5vw;
+        width: 40vw;
+        border-radius: 10px;
+        top: 30vw;
+        left: 20vw;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 3;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .text_admon{
+        color: rgb(129, 129, 129);
+        font-size: 1.5vw;
+        font-family: 'OTTIS_Titulo5';
+        text-align: center;
+        margin-top: -38px;
+        
+    }
+
+    .silvia_channel{
+        position: absolute!important;
+        width: 25vw;
+        left: 4vw;
+        top: 9.3vw;
+        z-index: 1;
+    }
+    .bill_and_admon{
+        position: absolute!important;
+        background-color: white;
+        border-top: 5vw solid rgb(231, 231, 231);
+        height: 25vw;
+        width: 23vw;
+        left: 34vw;
+        top: 12vw;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 2;
+    }
+    .contact_whatsapp{
+        position: absolute!important;
+        background-color: #AE032F;
+        height: 5vw;
+        width: 40vw;
+        border-radius: 10px;
+        top: 30vw;
+        left: 20vw;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 3;
+    }
+
+}
+
+@media(max-width:768px){
+    .attention_channel{
+        position: relative;
+        background-color: rgb(180, 180, 180);
+        height: 80vw;
+    
+    }
+    .channel_text{
+        color: white;
+        font-size: 6vw;
+        font-family: 'OTTIS_Titulo3';
+        text-align: center;
+        padding-top: 4%;
+    }
+    .pbx_text{
+        color: white;
+        font-size: 4vw;
+        font-family: 'OTTIS_Titulo4';
+        text-align: center;
+    }
+    
+    .bill_and_admon{
+        position: absolute!important;
+        background-color: white;
+        border-top: 8vw solid rgb(231, 231, 231);
+        height: 45vw;
+        width: 34vw;
+        left: 38vw;
+        top: 24vw;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 2;
+    }
+    .contact_whatsapp{
+        position: absolute!important;
+        background-color: #AE032F;
+        height: 8vw;
+        width: 55vw;
+        border-radius: 10px;
+        top: 56vw;
+        left: 20vw;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 3;
+    }
+    
+    .text_admon{
+        color: rgb(129, 129, 129);
+        font-size: 3vw;
+        font-family: 'OTTIS_Titulo5';
+        text-align: center;
+        margin-top: -28px;
+        
+    }
+    
+    .text_schedule{
+        color: rgb(129, 129, 129);
+        font-size: 2.8vw;
+        font-family: 'OTTIS_Titulo5';
+        text-align: center;
+        padding-top: 1px;
+    }
+    .text_whatsapp{
+        color: white;
+        font-size: 3.8vw;
+        font-family: 'OTTIS_Titulo3';
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+    .silvia_channel{
+        position: absolute!important;
+        width: 35vw;
+        left: -0.7vw;
+        top: 27vw;
+        z-index: 1;
+    }
+}
+
+.text_support{
+    color: rgb(129, 129, 129);
+    font-size: 2vw;
+    font-family: 'OTTIS_Titulo5';
+    text-align: center;
+    margin-top: -70px;
+    
+}
+
+.text_schedule_sup{
+    color: rgb(129, 129, 129);
+    font-size: 1.5vw;
+    font-family: 'OTTIS_Titulo5';
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media(min-width:1400px) and (max-width:1669px){
+    .text_support{
+        margin-top: -58px;
+    }
+
+}
+
+@media(min-width:1200px) and (max-width:1400px){
+    .text_support{
+        margin-top: -50px;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    .text_support{
+        margin-top: -43px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .text_support{
+        margin-top: -32px;
+    }
+
+    .text_schedule_sup{
+        padding-top: 15px;
+    }
+
+}
+
+@media(max-width:768px){
+    .text_support{
+        margin-top: -20px;
+        font-size: 3vw;
+
+    }
+
+    .text_schedule_sup{
+        padding-top: 10px;
+        font-size: 2.45vw;
+    }
+
+}
+
+.text_trade{
+    color: rgb(129, 129, 129);
+    font-size: 2vw;
+    font-family: 'OTTIS_Titulo5';
+    text-align: center;
+    margin-top: -90px;
+    
+}
+
+.text_schedule_trade{
+    color: rgb(129, 129, 129);
+    font-size: 1.5vw;
+    font-family: 'OTTIS_Titulo5';
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media(min-width:1400px) and (max-width:1669px){
+    .text_trade{
+        margin-top: -75px;
+    }
+
+}
+
+@media(min-width:1200px) and (max-width:1400px){
+    .text_trade{
+        margin-top: -63px;
+    }
+    .text_schedule_trade{
+        padding-top: 8px;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    .text_trade{
+        margin-top: -55px;
+    }
+    .text_schedule_trade{
+        padding-top: 4px;
+    }
+    .text_whatsapp_trade{
+        padding-top: 15px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .text_trade{
+        margin-top: -42px;
+    }
+
+    .text_schedule_trade{
+        padding-top: 2px;
+    }
+    .text_whatsapp_trade{
+        padding-top: 10px;
+    }
+
+}
+
+@media(max-width:768px){
+    .text_trade{
+        margin-top: -28px;
+        font-size: 3vw;
+    }
+
+    .text_schedule_trade{
+        padding-top: 1px;
+        font-size: 2.8vw;
+    }
+    .text_whatsapp_trade{
+        padding-top: 10px;
+        font-size: 2.6vw;
+    }
+
+}
+
+.machete{
+    bottom: 10vw;
+}
+
+@media(min-width:1200px) and (max-width:1669px){
+    .machete{
+        bottom: 11vw;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    .machete{
+        bottom: 11.5vw;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .machete{
+        bottom: 11.5vw;
+    }
+}
+
+@media(max-width:768px){
+    .machete{
+        bottom: 20vw;
+    }
 
 }
 
