@@ -4,7 +4,7 @@
 }
 
 .navbar-nav a{    
-    color: white;
+    color: #ffffff;
     font-family: 'OTTIS';
 }
 .navbar-nav a:hover{
@@ -12,7 +12,7 @@
 }
 
 nav{
-    background: linear-gradient(90deg, white,transparent);
+    background: linear-gradient(90deg, rgb(192, 192, 192),transparent);
 }
 @media (max-width:991px) and (min-width:150px){
 
@@ -24,4 +24,7 @@ nav{
     color: darkgray;
 }
 
+}
+.dropdown-menu{
+    background-color: transparent;
 }
