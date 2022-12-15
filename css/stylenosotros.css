@@ -6,15 +6,13 @@
     color: white;
     margin-bottom: 8%;
 }
-/* .titulo{
-    margin-top: 70%;
-    background-color: aqua;
-} */
+.banner-crc{
+    display: none;
+}
 .nosotros{
     background:linear-gradient(to right, #00528D, #001C51);
     padding-top: 2%;
     height: 500px;
-
 }
 .text-1{
     font-family: 'OTTIS';

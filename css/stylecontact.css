@@ -14,7 +14,12 @@
 }
 .conecta{
     background:linear-gradient(to right, #00528D, #001C51);
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+}
+.contenido{
+    margin-bottom: 5%;
 }
 .title-conecta{
     /* position: absolute; */
@@ -68,4 +73,7 @@ form{
     background-color: darkgray;
     padding-top: 50px;
     width: 100%!important;
+}
+.banner-crc{
+    display: none;
 }

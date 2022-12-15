@@ -23,7 +23,8 @@ require("templates/header.html");
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner" style="background-color: #001C51; height: 600px">
+        <div class="carousel-inner" style="background-color: #001C51; height: 630px">
+        <br>
         <div class="carousel-item active ">
             <div class="card-slider row" style="width: 100%;" >  
                 <div class="col-sm-5 offset-1">
@@ -39,7 +40,7 @@ require("templates/header.html");
         <div class="carousel-item">
             <div class="card-slider row" style="width: 100%;" >  
                 <div class="col-sm-5 offset-1">
-                    <img class="img-card" src="./imagenes/mejor_internet/estatal.png" alt="Servivio Hogar">
+                    <img class="img-card" src="./imagenes/mejor_internet/empresarial.png" alt="Servivio Hogar">
                 </div>
                 <div class="card-body col-md-5 col-11">
                     <h1 class="card-title title-card"><b>SERVICIO</b> </h1>
@@ -51,7 +52,7 @@ require("templates/header.html");
         <div class="carousel-item">
             <div class="card-slider row" style="width: 100%;" >  
                 <div class="col-sm-5 offset-1">
-                    <img class="img-card" src="./imagenes/mejor_internet/estatal.png" alt="Servivio Hogar">
+                    <img class="img-card" src="./imagenes/mejor_internet/estatal.png" alt="Servivio Hogar" style="margin-bottom:5%">
                 </div>
                 <div class="card-body col-md-5 col-11">
                     <h1 class="card-title title-card"><b>SERVICIOS</b> </h1>
