@@ -28,3 +28,13 @@ nav{
 .dropdown-menu{
     background-color: transparent;
 }
+.title-modal-satisfaccion{
+    text-align: center;
+    font-family: 'OTTIS';
+    background-color: #00529b;
+    color: #ffffff;
+}
+.modal-title{
+    width: 250;
+    margin-left: calc(50% - 125px);
+}

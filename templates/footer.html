@@ -5,6 +5,28 @@
   <img src="./iconos/apps_1.svg" alt="">
   hola
 </a> -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalSatisfaccion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-lg modal-xl">
+    <div class="modal-content">
+      <div class="modal-header title-modal-satisfaccion">
+        <h5 class="modal-title" id="exampleModalLabel">Encuesta de Satisfacción</h5>
+        <button type="button" class="btn-close btn-close-white col-1"  data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe frameborder="0" id="iframeD4B9V5A2W3I0L5M8V" src="https://www.survio.com/survey/i/D4B9V5A2W3I0L5M8V" height="350px" width="100%"></iframe>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- Final Modal -->
+
 <!-- Banner -->
 <div class="container">
   <img src="./imagenes/home/banner.png" class="img-fluid banner-crc" width="100%" alt="">
@@ -48,10 +70,10 @@
               Herramientas y Tips!
             </h6>
             <p>
-              <a href="#" id="enlace-ottis" class="text-reset" >Registrar PQR</a>
+              <a href="registrarpqrs.php" id="enlace-ottis" class="text-reset" >Registrar PQR</a>
             </p>
             <p>
-                <a href="#" id="enlace-ottis" class="text-reset ">Califica nuestro servicio</a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModalSatisfaccion" href="#exampleModalSatisfaccion" id="enlace-ottis" class="text-reset ">Califica nuestro servicio</a>
             </p>
             <p>
                 <a href="#" id="enlace-ottis" class="text-reset">OTTIS contra la explotación infantil</a>

@@ -3,6 +3,7 @@ require("templates/header.html");
 ?>
 <body>
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" href="css/stylecontact.css" crossorigin="anonymous">
     <div class="container">
         <?php
@@ -43,7 +44,7 @@ require("templates/header.html");
                         <img class="col-2 col-xs-3 col-sm-4 col-md-3 icono"src="./imagenes/contacto/ubicacion.png" style="margin-top:2%;margin-bottom:2%" >
                         <div class="col-11 col-xs-9 col-sm-6 col-md-9">
                             <h4 class="sub-title-contacto"><b>Cra 16 A # 13 A - 19</b>
-                            </h4>
+                          NES SOMO  </h4>
                             <h4 class="texto-contacto">
                                 Sogamoso - Boyacá
                             </h4>
@@ -75,27 +76,29 @@ require("templates/header.html");
                 </div>
             </div>
             
-            
+                     
             
    
         </div>
-        <form>
+        <form id="form-contact" action="" method="post">
+            <div class="message">
+
+            </div>
             <br>
-                
                 <div class="form-row row">
                     <div class="form-group offset-1 col-3" >
-                        <input type="text" class="form-control" id="name" placeholder="Nombre y apellido" title="Nombre" >
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre y apellido" title="Nombre" require>
                     </div>
                     <div class="form-group col-4">
-                        <input type="email" class="form-control" id="email" placeholder="Correo electronico" title="Email">
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Correo electronico" title="Email" require>
                     </div>
                     <div class="form-group col-3">
-                        <input type="number" class="form-control" id="phone" placeholder="Numero de contacto" title="Telefono">
+                        <input type="number" name="phone" class="form-control" id="phone" placeholder="Numero de contacto" title="Telefono" require>
                     </div>
                 </div>
                 <br>
                 <div class="form-group offset-1 col-10">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Por favor ingrese aquí su mensaje y uno de nuestros colaboradores se pondra en contacto."></textarea>
+                    <textarea class="form-control" id="message" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Por favor ingrese aquí su mensaje y uno de nuestros colaboradores se pondra en contacto." require></textarea>
                 </div>
                 <br>
                 <div class="row">
@@ -105,7 +108,7 @@ require("templates/header.html");
             </form>
     </div>
 
-    
+    <script type="text/javascript" src="js/formcontact.js"></script>
 <?php
 require("templates/footer.html");
 ?>

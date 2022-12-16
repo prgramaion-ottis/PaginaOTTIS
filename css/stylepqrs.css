@@ -1,0 +1,98 @@
+#div-title{
+    top: -20%;
+    /* display: block; */
+    position: relative;
+    z-index: 2;
+    /* background-color: rgb(0, 66, 66); */
+}
+.banner-crc{
+    display: none;
+}
+.wellcome{
+    position: absolute;
+    top: 20vw;
+    font-family: 'OTTIS_Titulo1'; 
+    color: white;
+}
+.conecta{
+    background:linear-gradient(to right, #00528D, #001C51);
+    padding-top: 2%;
+    
+}
+.title-ventajas{
+    /* position: absolute; */
+    text-align: center;
+    font-family: 'OTTIS_Titulo1'; 
+    color: white;
+    /* font-size: 4vw;  */
+}
+.title-card{
+    /* position: absolute; */
+    text-align: center;
+    font-family: 'OTTIS_Titulo1'; 
+    color: #00718d;
+    /* font-size: 4vw;  */
+}
+.sub-title-card{
+    font-family: 'OTTIS';
+    text-align: center;
+    color: #00718d;
+}
+.text-card{
+    text-align: center;
+    font-family: 'OTTIS';
+    color: #00718d;
+    vertical-align: middle;
+}
+.text-info-pqrs{
+    padding-left: 5%;
+    padding-right: 3%;
+    text-align: justify;
+    font-family: 'OTTIS';
+    color: #ffffff;
+}
+.card-slider{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    /* left: 50%; */
+}
+.carousel-item{
+    left: calc(50% - 175px);
+}
+.img-card{
+    height: 25%;
+    margin-top: 5%;
+}
+.formulario{
+    padding: 5%;
+    color: #ffffff;
+    background-color: darkgray;
+    /* height: 50vh; */
+    height: 100%;
+}
+.form-group {
+    height: 100%;
+    margin-bottom: 2%;
+}
+.form-select{
+    margin-bottom: 2%;
+}
+.form-area{
+    height: 100%;
+}
+.btn-form{
+    text-align: center;
+    color: white;
+    background-color: #00528d;
+    border-radius: 24px;
+    margin-left: 25%;
+    width: 50%;
+
+}
+.btn-form:hover{
+    color: #00529b;
+    background-color: white;
+    border-radius: 24px;
+}
