@@ -19,11 +19,13 @@ require("templates/header.html");
             <h1 class="wellcome2">Bienvenido a</h1> 
             <h4 class="name2"> OTTIS COMUNICACIONES </h4> 
             <img class="img-fluid resource_red2 offset-1" src="./imagenes/home/recurso 2.png">
-            <p class="description"><strong>Tu empresa proveedora de redes y servicios <br>
-                                    de telecomunicaciones.</strong> Recuerda que ahora puedes <br>
-                                    realizar tus pagos sin salir de casa o consultar tu deuda <br>
-                                    ingresando tú número de identificación, de manera <br>
-                                    rápida y sencilla con un solo clic.    
+            
+            <p class="description">
+                <br><br><strong>La mejor empresa de telecomunicaciones de la región.</strong> 
+                <!-- Recuerda que ahora puedes <br>
+                realizar tus pagos sin salir de casa o consultar tu deuda <br>
+                ingresando tú número de identificación, de manera <br>
+                rápida y sencilla con un solo clic.     -->
             </p>
         </div>
 
@@ -44,9 +46,9 @@ require("templates/header.html");
                 </div>
             </div>    
             <div class="d-none d-sm-none d-md-block">
-                <input type="number" class="id_number col-lg-2 col-md-2 offset-7">
+                <input type="number" id="inputCedula" name="inputCedula" class="id_number col-lg-2 col-md-2 offset-7">
                 <!-- Button trigger modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary search col-lg-1 col-md-1 offset-9" onclick="Buscar()">Buscar</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary search col-lg-1 col-md-1 offset-9" onclick="accionBuscar()">Buscar</button>
                 <!-- Modal -->
             </div>   
                 <div class="modal fullscreen-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -80,12 +82,12 @@ require("templates/header.html");
                     <img class="offset-6 resource3_2 img-fluid" src="./imagenes/home/recurso 1.png"> 
             </div>
             <div class="d-block d-sm-block d-md-none">
-                <input type="number" class="id_number2 col-4 col-sm-4 offset-3">
+                <input type="number" id="inputCedula" name="inputCedula" class="id_number2 col-4 col-sm-4 offset-3">
                 <!-- Button trigger modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary search2 col-2 col-sm-2 offset-7" onclick="Buscar()">Buscar</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary search2 col-2 col-sm-2 offset-7" onclick="accionBuscar()">Buscar</button>
                 <!-- Modal -->
             </div>
-            <div class="modal fullscreen-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!-- <div class="modal fullscreen-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -100,7 +102,7 @@ require("templates/header.html");
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-md-11 col-lg-11 col-xl-11">
                 <img class="offset-2 silvia d-none d-sm-none d-md-block img-fluid" src="./imagenes/home/call center 1 home.png" alt="">
             </div>
@@ -134,14 +136,15 @@ require("templates/header.html");
                 <p class="text_efecty2">PRESENCIAL</p>
                 <p class="text_efecty3">Convenio 112389</p>
             </div>
-            <div class="d-none d-xl-none d-xxl-block">
-                <img class="my_pay-left img-fluid" src="./iconos/mi_pago_amigo.png" alt="">
-            </div>
-            <div class="pay_line-left d-none d-xl-none d-xxl-block">
-                <p class="text_pay_line">PAGO EN</p>
-                <p class="text_pay_line2">LÍNEA</p>
-            </div>
-
+            <a new target="_blank" type="button" href="https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment?id=7883&amp;searchedCategoryId=&amp;searchedAgreementName=FUTURE%20SOLUTIONS%20DEVELOPMENT%20SAS">
+                <div class="d-none d-xl-none d-xxl-block">
+                    <img class="my_pay-left img-fluid" src="./iconos/mi_pago_amigo.png" alt="">
+                </div>
+                <div class="pay_line-left d-none d-xl-none d-xxl-block">
+                    <p class="text_pay_line">PAGO EN</p>
+                    <p class="text_pay_line2">LÍNEA</p>
+                </div>
+            </a>
             <!-- media screen under 14000px -->
             <div class="d-none d-sm-none d-md-block">
                 <img class="pay img-fluid"src="./iconos/pagos.png" alt="">
@@ -156,13 +159,16 @@ require("templates/header.html");
                 <p class="text_efecty2">PRESENCIAL</p>
                 <p class="text_efecty3">Convenio 112389</p>
             </div>
-            <div class="d-none d-sm-none d-md-block d-xxl-none">
-                <img class="my_pay img-fluid" src="./iconos/mi_pago_amigo.png" alt="">
-            </div>
-            <div class="pay_line d-none d-sm-none d-md-block d-xxl-none">
-                <p class="text_pay_line">PAGO EN</p>
-                <p class="text_pay_line2">LÍNEA</p>
-            </div>
+            <a new target="_blank" type="button" href="https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment?id=7883&amp;searchedCategoryId=&amp;searchedAgreementName=FUTURE%20SOLUTIONS%20DEVELOPMENT%20SAS">
+                <div class="d-none d-sm-none d-md-block d-xxl-none">
+                    <img class="my_pay img-fluid" src="./iconos/mi_pago_amigo.png" alt="">    
+                </div>
+                <div class="pay_line d-none d-sm-none d-md-block d-xxl-none">
+                    <p class="text_pay_line">PAGO EN</p>
+                    <p class="text_pay_line2">LÍNEA</p>
+                </div>
+            </a>
+
             <!-- media screen UNDER 760px -->
             <div class="d-block d-sm-block d-md-none">
                 <img class="pay1 img-fluid"src="./iconos/pagos.png" alt="">
@@ -177,13 +183,15 @@ require("templates/header.html");
                 <p class="text_efecty2_sm">PRESENCIAL</p>
                 <p class="text_efecty3_sm">Convenio 112389</p>
             </div>
-            <div class="d-block d-sm-block d-md-none">
-                <img class="my_pay1 img-fluid" src="./iconos/mi_pago_amigo.png" alt="">
-            </div>
-            <div class="pay_line1 d-block d-sm-block d-md-none">
-                <p class="text_pay_line_sm">PAGO EN</p>
-                <p class="text_pay_line2_sm">LÍNEA</p>
-            </div>
+            <a new target="_blank" type="button" href="https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment?id=7883&amp;searchedCategoryId=&amp;searchedAgreementName=FUTURE%20SOLUTIONS%20DEVELOPMENT%20SAS">
+                <div class="d-block d-sm-block d-md-none">
+                    <img class="my_pay1 img-fluid" src="./iconos/mi_pago_amigo.png" alt="">    
+                </div>
+                <div class="pay_line1 d-block d-sm-block d-md-none">
+                    <p class="text_pay_line_sm">PAGO EN</p>
+                    <p class="text_pay_line2_sm">LÍNEA</p>
+                </div>
+            </a>
         </div>
         <!-- ---------------------------------------------------------- -->
         <div class="blue_box">
@@ -255,7 +263,7 @@ require("templates/header.html");
         </div>
 
         <!-- ----------------------------------------------------------------- -->
-        <div class="attention_channel">
+        
 
             <!-- <div class="first_img">
                 <div class="bill_and_admon">
@@ -308,16 +316,13 @@ require("templates/header.html");
                 <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
             </div>  -->
             
-            
-
-            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="attention_channel">
+            <h2 class="channel_text ">CANALES DE <strong>ATENCIÓN</strong></h2>
+            <h3 class="pbx_text ">PBX 6017943254 - 6019172166</h3>     
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <h2 class="channel_text ">CANALES DE <strong>ATENCIÓN</strong></h2>
-                    <h3 class="pbx_text ">PBX 6017943254 - 6019172166</h3>
-                </div>
-                <div class="carousel-item active machete">
-                    <div class="card-slider" >  
-                        <div class="first_img">
+                    <div class="carousel-item active machete">
+                        <!-- <div class="first_img"> -->
                             <div class="bill_and_admon">
                                 <h3 class="text_admon"><strong>FACTURACIÓN<br>Y ADMINISTRACIÓN</strong></h3>
                                 <h3 class="text_schedule"><strong>Lunes a Viernes</strong> <br> 
@@ -332,12 +337,10 @@ require("templates/header.html");
                                 <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"><strong> 311 491 6907</strong></h3>
                             </div>
                             <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
-                        </div>      
-                    </div>  
-                </div>
-                <div class="carousel-item machete">
-                    <div class="card-slider" >  
-                        <div class="second_img">
+                        <!-- </div> -->
+                    </div>
+                    <div class="carousel-item machete">
+                        <!-- <div class="second_img"> -->
                             <div class="bill_and_admon">
                                 <h3 class="text_support"><strong>SOPORTE TÉCNICO</strong></h3>
                                 <h3 class="text_schedule_sup"><strong>Lunes a Sábado</strong> <br> 
@@ -351,12 +354,10 @@ require("templates/header.html");
                                 <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 321 289 3978</strong></h3>
                             </div>
                             <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
-                        </div>  
+                        <!-- </div>     -->
                     </div>
-                </div>
-                <div class="carousel-item machete">
-                    <div class="card-slider" >  
-                        <div class="third_img">
+                    <div class="carousel-item machete">
+                        <!-- <div class="third_img"> -->
                             <div class="bill_and_admon">
                                 <h3 class="text_trade"><strong>COMERCIAL<br>Y VENTAS</strong></h3>
                                 <h3 class="text_schedule_trade"><strong>Lunes a Viernes</strong> <br> 
@@ -371,24 +372,46 @@ require("templates/header.html");
                                 <h3 class="text_whatsapp_trade">CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 320 499 5482 - 322 609 3107 </strong></h3>
                             </div>
                             <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
-                        </div>  
+                        <!-- </div>  -->
                     </div>
                 </div>
-                
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span> 
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-                
             </div>
         </div>   
     </div>
 
+    <!-- MODAL DE CONSULTA DEUDAS -->
+    <div id="myModal" class="modal hide fade">
+    
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Clientes Encontrados</h3>
+    </div>
+    
+    <div class="modal-body"> 
+        
+        <div class="container" id="tabla_respuesta">
+
+        </div>
+        <br>
+        <br>
+        <br>
+        
+    </div>
+    
+    <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">Close</a>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
 <?php
 require("templates/footer.html");
 ?>

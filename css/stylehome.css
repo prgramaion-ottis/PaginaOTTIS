@@ -54,7 +54,7 @@
     top: 22vw;
     font-family: 'OTTIS_Titulo3'; 
     color: white;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
 }
 
 .red_box{
@@ -1191,6 +1191,11 @@
     padding-top: 15px;
 }
 
+.carousel-inner{
+    background-color:  rgb(180, 180, 180);;
+    height: 28vw;
+}
+
 @media(min-width:1400px) and (max-width:1669px){
     .text_trade{
         margin-top: -75px;
@@ -1250,7 +1255,13 @@
         font-size: 2.6vw;
     }
 
+    .carousel-inner{
+        background-color:  rgb(180, 180, 180);;
+        height: 54vw;
+    }
+
 }
+
 
 .machete{
     bottom: 10vw;
@@ -1281,6 +1292,7 @@
     }
 
 }
+
 
 /* ---------------- */
 
