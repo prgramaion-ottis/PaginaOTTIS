@@ -83,9 +83,7 @@ include('ajax/conectdb.php');
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Siguiente</span>
             </button>
-        
         </div>
-
         <div class="formulario">
                 <p>
                 Para nosotros es muy importante contar con clientes satisfechos y en pro de mejorar nuestros servicios, podrás registrar tus 
@@ -137,7 +135,7 @@ include('ajax/conectdb.php');
                     
                     </div>
                     
-                    <div class="col-12 col-sm-12 col-md-3 form-group">
+                    <div class="col-12 col-sm-12 col-md-6 form-group">
                         <select id="pet-select" require class="form-select form-group" name="tipoTramite" id="tipoTramite" data-msg="Seleccione el trámite." >
                             <option value="">--Seleccione el tipo de trámite--</option>
                             <?php
@@ -165,18 +163,17 @@ include('ajax/conectdb.php');
                 </div>  
 				<div class="row">
                     <div class="col-12 margintop10 form-group">
-                        <textarea class="form-control form-area" require name="tramite"  data-rule="required" data-msg="Regalanos más detalles de tu solicitud. " placeholder="Registre de forma respetuosa su trámite" ></textarea>
+                        <textarea class="form-control form-area" id="text-tramite" require name="tramite"  data-rule="required" data-msg="Regalanos más detalles de tu solicitud. " placeholder="Registre de forma respetuosa su trámite" ></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <button type="submit" class="btn btn-form offset-3 col-6">Enviar PQRS</button>
                 </div>
-				
             </form>
         </div>
 
     </div>
-    <script type="text/javascript" src="js/pqrs.js"></script>
+    <script type="text/javascript" src="js/formpqr.js"></script>
 <?php
 require("templates/footer.html");
 ?>    
