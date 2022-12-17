@@ -24,3 +24,24 @@
     border-radius: 50px;
     z-index: 100;
 }
+.heading-denuncia {
+    text-align: center;
+    font-family: 'OTTIS'
+}
+.info{
+    font-family: 'OTTIS';
+    text-align: justify;
+}
+/* .info-dijin{
+    text-align: center;
+} */
+.author{
+    background-color: #f0f0f0;
+    text-align: center;
+    height: 15vh;
+    /* background-color: darkgray; */
+    margin-bottom: 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+    
+}

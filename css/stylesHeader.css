@@ -35,6 +35,16 @@ nav{
     color: #ffffff;
 }
 .modal-title{
-    width: 250;
-    margin-left: calc(50% - 125px);
+    width: 100%;
+    
+}
+
+.modal-header{
+    background-color: #00528d;
+    color: white;
+    text-align: right;
+}
+.modal-title{
+    font-family: 'OTTIS';
+    text-align: center;
 }
