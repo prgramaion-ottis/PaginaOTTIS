@@ -2,16 +2,12 @@ function accionBuscar() {
     // console.log(document.getElementById('inputCedula').value)
     $.ajax({
         type: 'POST',
-        url: './ajax/buscar.php',
+        url: 'ajax/buscar.php',
         data: {cedula:document.getElementById('inputCedula').value},
         success: function(respuesta) {
-            console.log(respuesta)
+            console.log(typeof respuesta)
             if(respuesta!="{}"){
-                    // $.('#boton1').click(function(){
-                        // $('#myModal_pago').modal('show');
-                    // });
-                    // console.log(typeof respuesta);
-                    // console.log(respuesta);
+                    console.log(respuesta);
 
                     let expre= new RegExp('\"[0-9]{1,2}\":\"');
                     let contenido = respuesta.split(expre);
@@ -24,10 +20,6 @@ function accionBuscar() {
                     element[element.length-1] = element[element.length-1].substr(0,element[element.length-1].length - 1);
                     const exp=new RegExp('"},"[0-9]"');
                     for (let i  = 0; i < element.length; i++) {
-                        //while(element[i].includes("\\")){
-                        //    element[i]=element[i].replace('\\',"")
-
-                        //}
                         if (i%3==0 && i!=0) {
                             let x=i-1;
                             element[x]=element[x].replace(exp,"")
@@ -41,7 +33,6 @@ function accionBuscar() {
                     }
                     console.log(vecFinal.length)
                     for (let i = 0; i < vecFinal.length; i++) {
-                        // console.log(element.length)
 
                         vecFinal[i]=element.slice(0,3);
                         element.splice(0,3);
@@ -49,6 +40,7 @@ function accionBuscar() {
                     }
                     var str=''
                     for (let i = 0; i < vecFinal.length; i++) {
+                        
                         str=str+'<tr>\n'+
                             '<td scope="col">'+vecFinal[i][1]+'</td>\n'+
                             '<td scope="col">'+vecFinal[i][0]+'</td>\n'+
@@ -58,7 +50,6 @@ function accionBuscar() {
 
                     let tabla= document.getElementById('tabla_respuesta');
 
-                    // console.log(str)
 
                     tabla.innerHTML='<table class="table">\n'+
                         '<thead>\n'+
@@ -71,7 +62,8 @@ function accionBuscar() {
                         '<tbody>\n'+str+
                         '</tbody>\n'+
                         '</table>';
-
+                        
+                    $('#exampleModal').modal('show');
                     document.getElementById("inputCedula").value = "";
             }
             else {

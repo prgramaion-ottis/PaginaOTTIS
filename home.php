@@ -48,18 +48,23 @@ require("templates/header.html");
             <div class="d-none d-sm-none d-md-block">
                 <input type="number" id="inputCedula" name="inputCedula" class="id_number col-lg-2 col-md-2 offset-7">
                 <!-- Button trigger modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary search col-lg-1 col-md-1 offset-9" onclick="accionBuscar()">Buscar</button>
+                <button type="button"  class="btn btn-primary search col-lg-1 col-md-1 offset-9" onclick="accionBuscar()">Buscar</button>
                 <!-- Modal -->
             </div>   
+
+            <!-- MODAL QUE MUESTRA CLIENTES Y SUS DEUDA -->
+
                 <div class="modal fullscreen-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">AAAAAAAAAAA</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Clientes Encontrados</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                XXXXXXXXXX
+                                <div class="container" id="tabla_respuesta">
+
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -67,7 +72,7 @@ require("templates/header.html");
                         </div>
                     </div>
                 </div>
-           
+            <!-- FINAL DEL MODAL DE CLIENTES Y DEUDAS -->
             
             <!-- media screen UNDER 760px -->
 
@@ -84,9 +89,12 @@ require("templates/header.html");
             <div class="d-block d-sm-block d-md-none">
                 <input type="number" id="inputCedula" name="inputCedula" class="id_number2 col-4 col-sm-4 offset-3">
                 <!-- Button trigger modal -->
-                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary search2 col-2 col-sm-2 offset-7" onclick="accionBuscar()">Buscar</button>
+                <button type="button"  class="btn btn-primary search2 col-2 col-sm-2 offset-7" onclick="accionBuscar()">Buscar</button>
                 <!-- Modal -->
             </div>
+
+            <!-- ESTE MODAL PARECE QUE SOBRA -->
+
             <!-- <div class="modal fullscreen-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -103,6 +111,9 @@ require("templates/header.html");
                     </div>
                 </div>
             </div> -->
+
+            <!-- EL MODAL ANTERIOR SOBRA -->
+
             <div class="col-md-11 col-lg-11 col-xl-11">
                 <img class="offset-2 silvia d-none d-sm-none d-md-block img-fluid" src="./imagenes/home/call center 1 home.png" alt="">
             </div>
@@ -111,14 +122,14 @@ require("templates/header.html");
         <!-- ---------------------------------------------------------- -->
         <div class="white_box">
             <div class="row">
-                <a new target="_blank" type="button" href="https://api.whatsapp.com/send/?phone=573212893978&text&type=phone_number&app_absent=0">
+                <a new target="_blank" type="button" href="https://api.whatsapp.com/send/?phone=573114916907&text&type=phone_number&app_absent=0">
                     <img class="icon1 img-fluid offset-0 col-lg-4 col-md-4 d-none d-sm-none d-md-block" src="./imagenes/home/icono.png" alt="">
                 </a>
                 <img class="icon2 img-fluid offset-7 col-lg-4 col-md-4 d-none d-sm-none d-md-block" src="./imagenes/home/icono2.png" alt="">
             </div>
               <!-- media screen UNDER 760px -->
             <div class="row">
-                <a new target="_blank" type="button" href="https://api.whatsapp.com/send/?phone=573212893978&text&type=phone_number&app_absent=0">
+                <a new target="_blank" type="button" href="https://api.whatsapp.com/send/?phone=573114916907&text&type=phone_number&app_absent=0">
                     <img class="icon3 img-fluid d-block d-sm-block d-md-none" src="./imagenes/home/icono.png" alt="">
                 </a>
                 <img class="icon4 img-fluid d-block d-sm-block d-md-none" src="./imagenes/home/icono2.png" alt="">
@@ -259,7 +270,8 @@ require("templates/header.html");
                                     telefónicos o si lo prefieres en nuestra <br>
                                     oficina principal.
             </p>
-            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn register btn-primary offset-6" onclick="Buscar()">Registralas <br> <strong>AQUÍ</strong></button>
+            <a type="button" class="btn register btn-primary offset-6" href="./registrarpqrs.php">Registralas <br> <strong>AQUÍ</strong></a>
+            <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn register btn-primary offset-6" onclick="Buscar()">Registralas <br> <strong>AQUÍ</strong></button> -->
         </div>
 
         <!-- ----------------------------------------------------------------- -->
@@ -388,28 +400,28 @@ require("templates/header.html");
     </div>
 
     <!-- MODAL DE CONSULTA DEUDAS -->
-    <div id="myModal" class="modal hide fade">
+    <!-- <div id="myModal" class="modal hide fade">
     
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h3>Clientes Encontrados</h3>
-    </div>
-    
-    <div class="modal-body"> 
-        
-        <div class="container" id="tabla_respuesta">
-
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3>Clientes Encontrados</h3>
         </div>
-        <br>
-        <br>
-        <br>
         
-    </div>
-    
-    <div class="modal-footer">
-        <a href="#" class="btn" data-dismiss="modal">Close</a>
-    </div>
-    </div>
+        <div class="modal-body" > 
+            
+            <div class="container" id="tabla_respuesta">
+
+            </div>
+            <br>
+            <br>
+            <br>
+            
+        </div>
+        
+        <div class="modal-footer">
+            <a href="#" class="btn" data-dismiss="modal">Close</a>
+        </div>
+    </div> -->
 
     <script type="text/javascript" src="js/script.js"></script>
 <?php

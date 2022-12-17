@@ -1,33 +1,30 @@
 <?php
-    // if (isset($_POST['cedula']) && $_POST['cedula']){
-
+    if($_POST){
         $cedula= $_POST["cedula"];
-        // echo json_encode($cedula);
-        // $cedula= '7225682';
         return BuscarCC($cedula);
-    // }
+    }
     $arrayClientes = new stdClass();
     $cliente = new stdClass();
     function BuscarCC($cc){
         
         $contenido=leer();
-        
         $arregloPrincipal=separar($contenido);
         $arrgloEncontrados=encontrados($arregloPrincipal,$cc);
-        // $tabla=dividir($arrgloEncontrados);
+        $tabla=dividir($arrgloEncontrados);
 
-        echo json_encode($tabla);
+        echo json_encode($tabla,JSON_FORCE_OBJECT);
 
     }
     
     
     function leer(){
-        $file = "archivos/12DICIEMBREWEB_V2.csv";
+        $file = "../archivos/12DICIEMBREWEB_V2.csv" or die("No se puede abrir el archivo");
         $openfile = fopen($file, "r");
         $cont = fread($openfile, filesize($file));
-        // echo json_encode(gettype($con));
+        
         return $cont;
     }
+    
     function separar($contenido){
         $arrayLineas=explode("\n",$contenido);
         return $arrayLineas;
@@ -51,7 +48,7 @@
         
     }
 
-    // BuscarCC("9525973");
+    // BuscarCC("822007117");
 
 
 ?>
