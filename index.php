@@ -55,7 +55,7 @@ require("templates/header.html");
             <!-- MODAL QUE MUESTRA CLIENTES Y SUS DEUDA -->
 
                 <div class="modal fullscreen-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog modal-lg modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel">Clientes Encontrados</h5>
