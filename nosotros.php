@@ -1,14 +1,16 @@
-
+<!-- SE AGREGA LAS LIBRERIAS NECESARIOS CON BOOTSTRAP Y JQUERY QUE ESTAN EN HEADER -->
 <?php
     require("templates/header.html");
 ?>
 <body>
-<script src="js/script.js"></script>
+    <!-- AGREGAMOS LOS ESTILOS NECESARIOS PARA ESTA PESTAÑA -->
 <link rel="stylesheet" href="css/stylenosotros.css" crossorigin="anonymous">
+<!-- SE CREA UN CONTENEDOR Y SE AGREGA LA BARRA DE NAVEGACION  -->
     <div class="container">
         <?php
             require("templates/navbar.html");
         ?>
+        <!-- ESTE ES EL DIV QUE CONTIENE LA IMAGEN Y EL TITULO DE LA PESTAÑA -->
         <div class="col-12">
             <img src="./imagenes/nosotros/Mesa_de_trabajo_9.png" alt="" width="100%">                
         </div>
@@ -84,7 +86,8 @@
         </div>
 
     </div>
-    
+            
+<!-- SE INSERTA TODO EL CONTENIDO DEL FOOTER -->
 <?php
     require("templates/footer.html");
 ?>  

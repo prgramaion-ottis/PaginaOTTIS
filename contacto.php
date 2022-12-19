@@ -1,14 +1,17 @@
+<!-- SE AGREGA LAS LIBRERIAS NECESARIOS CON BOOTSTRAP Y JQUERY QUE ESTAN EN HEADER -->
 <?php
 require("templates/header.html");
 ?>
 <body>
-<script src="js/script.js"></script>
+<!-- AGREGAMOS LOS ESTILOS Y LA LIBRERIA SWEETALERT NECESARIOS PARA ESTA PESTAÑA -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" href="css/stylecontact.css" crossorigin="anonymous">
+<!-- SE CREA UN CONTENEDOR Y SE AGREGA LA BARRA DE NAVEGACION  -->
     <div class="container">
         <?php
             require("templates/navbar.html");
         ?>
+        <!-- ESTE ES EL DIV QUE CONTIENE LA IMAGEN Y EL TITULO DE LA PESTAÑA -->
         <div class="refence_box col-md-12"  >
             <img class="" src="./imagenes/contacto/imagen_contacto-100.jpg" style="z-index:1" width="100%" alt="">
             
@@ -16,6 +19,7 @@ require("templates/header.html");
                 <h1 class="wellcome">CONTACTO</h1>
             </div>
         </div> 
+        <!-- CONTENIDO CON INFORMACION DE CONTACTO -->
         <div class="conecta">
             <div class="row  ">
                 <div class="col-xs-12 col-sm-12 col-md-4 offset-1 contenido">
@@ -70,16 +74,13 @@ require("templates/header.html");
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-xs-12 col-sm-12 col-md-7 "> -->
                 <div class="col-xs-12 col-sm-12 col-md-7 d-none d-md-block  ">
                     <img src="./imagenes/contacto/call-center.png" height= "100%" width="100%" alt="">
                 </div>
             </div>
             
-                     
-            
-   
         </div>
+        <!-- FORMULARIO DE CONTACTO -->
         <form id="form-contact" action="" method="post">
             <div class="message">
 
@@ -108,7 +109,10 @@ require("templates/header.html");
             </form>
     </div>
 
+    <!-- CAPTURA DATOS FORMULARIO -->
     <script type="text/javascript" src="js/formcontact.js"></script>
+        
+<!-- SE INSERTA TODO EL CONTENIDO DEL FOOTER -->
 <?php
 require("templates/footer.html");
 ?>

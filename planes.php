@@ -1,20 +1,23 @@
+<!-- SE AGREGA LAS LIBRERIAS NECESARIOS CON BOOTSTRAP Y JQUERY QUE ESTAN EN HEADER -->
 <?php
 require("templates/header.html");
 ?>
 <body>
-<script src="js/script.js"></script>
+<!-- AGREGAMOS LOS ESTILOS NECESARIOS PARA ESTA PESTAÑA -->
 <link rel="stylesheet" href="css/styleplanes.css" crossorigin="anonymous">
+<!-- SE CREA UN CONTENEDOR Y SE AGREGA LA BARRA DE NAVEGACION  -->
     <div class="container">
         <?php
             require("templates/navbar.html");
         ?>
+        <!-- ESTE ES EL DIV QUE CONTIENE LA IMAGEN Y EL TITULO DE LA PESTAÑA -->
         <div class=" col-md-12"  >
             <img class="" src="./imagenes/planes/Mesa_de_trabajo_2.png" style="z-index:1" width="100%" alt="">
             <div class=" col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
                 <h1 class="wellcome">Planes <br> de Internet</h1>
             </div>
         </div> 
-        
+        <!-- CONTIENE LAS INSTUCCIONES PARA SELECCIONAR UN PLAN -->
         <div class="seleccion ">
             <div class="fondo-color">
                 <div class="row-seleccion container row">
@@ -42,8 +45,7 @@ require("templates/header.html");
             </div>
             
         </div>
-        <!-- ---
-        --- -->
+        <!-- START CAROUSEL  -->
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -194,8 +196,10 @@ require("templates/header.html");
         </button>
         
       </div>
+      <!-- END CAROUSEL -->
     </div>
-        
+    
+<!-- SE INSERTA TODO EL CONTENIDO DEL FOOTER -->        
 <?php
     require("templates/footer.html");
 ?>

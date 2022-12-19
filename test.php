@@ -1,19 +1,23 @@
+<!-- SE AGREGA LAS LIBRERIAS NECESARIOS CON BOOTSTRAP Y JQUERY QUE ESTAN EN HEADER -->
 <?php
 require("templates/header.html");
 ?>
 <body>
-<script src="js/script.js"></script>
+<!-- AGREGAMOS LOS ESTILOS NECESARIOS PARA ESTA PESTAÑA -->
 <link rel="stylesheet" href="css/styletest.css" crossorigin="anonymous">
+<!-- SE CREA UN CONTENEDOR Y SE AGREGA LA BARRA DE NAVEGACION  -->
     <div class="container">
         <?php
             require("templates/navbar.html");
         ?>
+        <!-- ESTE ES EL DIV QUE CONTIENE LA IMAGEN Y EL TITULO DE LA PESTAÑA -->
         <div class=" col-md-12"  >
             <img class="" src="./imagenes/velocidad/Recurso_9.png" style="z-index:1" width="100%" alt="">
             <div class=" col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
                 <h1 class="wellcome">Mide Tu Velocidad <br> de Internet</h1>
             </div>
         </div> 
+        <!-- CONTIENE LAS INSTUCCIONES PARA REALIZAR LAS PRUEBAS DE VELOCIDAD -->
         <div class="div-test" style="z-index:-10;">
         <br>
             <div class="title-test col-12">
@@ -120,12 +124,13 @@ require("templates/header.html");
             </div>
             
         </div>
+        <!-- CONTIENE EL TEST DE VELOCIDAD DE SPEED TEST OOKLA -->
         <div class="test col-12">
             <iframe width="100%" height="650px" frameborder="0" src="https://ottis.speedtestcustom.com"></iframe>
         </div>
-
-
-    </div>   
+    </div>  
+    
+<!-- SE INSERTA TODO EL CONTENIDO DEL FOOTER -->  
 <?php
     require("templates/footer.html");
 ?>

@@ -1,13 +1,17 @@
+<!-- SE AGREGA LAS LIBRERIAS NECESARIOS CON BOOTSTRAP Y JQUERY QUE ESTAN EN HEADER -->
 <?php
 require("templates/header.html");
 ?>
 <body>
 <script src="js/script.js"></script>
+<!-- AGREGAMOS LOS ESTILOS NECESARIOS PARA ESTA PESTAÑA -->
 <link rel="stylesheet" href="css/stylecomunicaciones.css" crossorigin="anonymous">
+<!-- SE CREA UN CONTENEDOR Y SE AGREGA LA BARRA DE NAVEGACION  -->
     <div class="container">
         <?php
             require("templates/navbar.html");
         ?>
+        <!-- ESTE ES EL DIV QUE CONTIENE LA IMAGEN Y EL TITULO DE LA PESTAÑA -->
         <div class=" col-md-12"  >
             <img class="" src="./imagenes/mejor_internet/mejor_internet.png" style="z-index:1" width="100%" alt="">
             <div class=" col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 offset-1">
@@ -15,8 +19,7 @@ require("templates/header.html");
             </div>
         </div> 
 
-           
-
+      <!-- START CAROUSEL  -->
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators" style="bottom: 5%;">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -74,9 +77,12 @@ require("templates/header.html");
         </button> 
         
       </div>
+      <!-- END CAROUSEL -->
 
-      <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1eJZIQ25SFiBL1pIYcnur3iEoB86I2ho&hl=es&ehbc=2E312F" width="100%" height="480"></iframe> -->
+    <!-- FIN DEL CONTENEDOR -->
     </div>
+    
+<!-- SE INSERTA TODO EL CONTENIDO DEL FOOTER -->
 <?php
     require("templates/footer.html");
 ?>

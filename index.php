@@ -93,27 +93,6 @@ require("templates/header.html");
                 <!-- Modal -->
             </div>
 
-            <!-- ESTE MODAL PARECE QUE SOBRA -->
-
-            <!-- <div class="modal fullscreen-modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Sapo el que lea</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            mentiras we te queremos xD
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- EL MODAL ANTERIOR SOBRA -->
-
             <div class="col-md-11 col-lg-11 col-xl-11">
                 <img class="offset-2 silvia d-none d-sm-none d-md-block img-fluid" src="./imagenes/home/call center 1 home.png" alt="">
             </div>
@@ -276,58 +255,6 @@ require("templates/header.html");
 
         <!-- ----------------------------------------------------------------- -->
         
-
-            <!-- <div class="first_img">
-                <div class="bill_and_admon">
-                    <h3 class="text_admon"><strong>FACTURACIÓN<br>Y ADMINISTRACIÓN</strong></h3>
-                    <h3 class="text_schedule"><strong>Lunes a Viernes</strong> <br> 
-                                    8:00am - 1:00pm <br> 
-                                    2:00pm - 6:00pm <br>
-                                    <strong>Sábados</strong> <br>
-                                    9:00am - 12:00pm <br>
-                                    facturacion@ottis.com.co
-                    </h3>           
-                </div>
-                <div class="contact_whatsapp">
-                    <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"><strong> 311 491 6907</strong></h3>
-                </div>
-                <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
-            </div> -->
-
-            <!-- -------------------------- -->
-            <!-- <div class="second_img">
-                <div class="bill_and_admon">
-                    <h3 class="text_support"><strong>SOPORTE TÉCNICO</strong></h3>
-                    <h3 class="text_schedule_sup"><strong>Lunes a Sábado</strong> <br> 
-                                    6:00am - 1:00pm <br> 
-                                    <strong>Domingo y Festivos</strong> <br>
-                                    9:00am - 5:00pm <br>
-                                    mesadeservicio@ottis.com.co
-                    </h3>           
-                </div>
-                <div class="contact_whatsapp">
-                    <h3 class="text_whatsapp"> CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 321 289 3978</strong></h3>
-                </div>
-                <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
-            </div>   -->
-              <!-- ----------------------------  -->
-            <!-- <div class="third_img">
-                <div class="bill_and_admon">
-                    <h3 class="text_trade"><strong>COMERCIAL<br>Y VENTAS</strong></h3>
-                    <h3 class="text_schedule_trade"><strong>Lunes a Viernes</strong> <br> 
-                                        8:00am - 1:00pm <br>
-                                        2:00pm - 6:00pm <br> 
-                                        <strong>Sábados</strong> <br>
-                                        9:00am - 12:00pm <br>
-                                        comercial@ottis.com.co
-                    </h3>           
-                </div>
-                <div class="contact_whatsapp">
-                    <h3 class="text_whatsapp_trade">CONTACTO <img src="./iconos/whatsApp_3.png" alt="" width="6%"> <strong> 320 499 5482 - 322 609 3107 </strong></h3>
-                </div>
-                <img class="silvia_channel offset-2" src="./imagenes/home/call _enter_home_2.png" alt="">
-            </div>  -->
-            
         <div class="attention_channel">
             <h2 class="channel_text ">CANALES DE <strong>ATENCIÓN</strong></h2>
             <h3 class="pbx_text ">PBX 6017943254 - 6019172166</h3>     
@@ -397,29 +324,6 @@ require("templates/header.html");
         </div>   
     </div>
 
-    <!-- MODAL DE CONSULTA DEUDAS -->
-    <!-- <div id="myModal" class="modal hide fade">
-    
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h3>Clientes Encontrados</h3>
-        </div>
-        
-        <div class="modal-body" > 
-            
-            <div class="container" id="tabla_respuesta">
-
-            </div>
-            <br>
-            <br>
-            <br>
-            
-        </div>
-        
-        <div class="modal-footer">
-            <a href="#" class="btn" data-dismiss="modal">Close</a>
-        </div>
-    </div> -->
 
     <script type="text/javascript" src="js/script.js"></script>
 <?php

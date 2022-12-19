@@ -1,15 +1,18 @@
+<!-- SE AGREGA LAS LIBRERIAS NECESARIOS CON BOOTSTRAP Y JQUERY QUE ESTAN EN HEADER -->
 <?php
 require("templates/header.html");
 include('ajax/conectdb.php');
 ?>
 <body>
-<script src="js/script.js"></script>
+<!-- AGREGAMOS LOS ESTILOS Y LA LIBRERIA SWEETALERT NECESARIOS PARA ESTA PESTAÑA -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" href="css/stylepqrs.css" crossorigin="anonymous">
+<!-- SE CREA UN CONTENEDOR Y SE AGREGA LA BARRA DE NAVEGACION  -->
     <div class="container">
         <?php
             require("templates/navbar.html");
         ?>
+        <!-- ESTE ES EL DIV QUE CONTIENE LA IMAGEN Y EL TITULO DE LA PESTAÑA -->
         <div class="refence_box col-md-12"  >
             <img class="" src="./imagenes/contacto/imagen_contacto-100.jpg" style="z-index:1" width="100%" alt="">
             
@@ -17,7 +20,7 @@ include('ajax/conectdb.php');
                 <h1 class="wellcome">REGISTRA TUS PQRS</h1>
             </div>
         </div> 
-
+        <!-- START CAROUSEL  -->
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,6 +87,10 @@ include('ajax/conectdb.php');
             <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
+           
+        <!-- START CAROUSEL  -->
+
+        <!-- FORMULARIO PARA ENVIAR PQRS -->
         <div class="formulario">
                 <p>
                 Para nosotros es muy importante contar con clientes satisfechos y en pro de mejorar nuestros servicios, podrás registrar tus 
@@ -173,7 +180,10 @@ include('ajax/conectdb.php');
         </div>
 
     </div>
+    <!-- CAPTURA DATOS FORMULARIO -->
     <script type="text/javascript" src="js/formpqr.js"></script>
+
+<!-- SE INSERTA TODO EL CONTENIDO DEL FOOTER -->
 <?php
 require("templates/footer.html");
 ?>    
