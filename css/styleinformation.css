@@ -1,14 +1,14 @@
-.white_box{
-    position: relative;
-    height: 3.5vw;
-    background-color: white;
 
-}
 .title_regulatory{
-    position: relative;
-    background-color: aqua;
-    height: 8vw;
+    position: absolute;
+    top: 20vw;
+    font-family: 'OTTIS_Titulo1'; 
+    color: white;
+    font-size: 38px;
+    padding-left: 2vw;
 }
+
+
 .title_nor{
     font-size: 2vw;
     font-family: 'OTTIS_Titulo4';
@@ -80,6 +80,18 @@
     background-image: url('../imagenes/normativa/pqr2.png');
 }
 
+.ley{
+    background-image: url('../imagenes/normativa/ley2.png');
+}
+
+.control{
+    background-image: url('../imagenes/normativa/control2.png');
+}
+
+.explotacion{
+    background-image: url('../imagenes/normativa/explotacion2.png');
+}
+
 .btn::after {
     content: "";
     display: inline-block;
@@ -127,6 +139,20 @@
     background-size: cover;
 }
 
+.ley::after{
+    background-image: url('../imagenes/normativa/ley.png');
+    background-size: cover;
+}
+
+.control::after{
+    background-image: url('../imagenes/normativa/control.png');
+    background-size: cover;
+}
+
+.explotacion::after{
+    background-image: url('../imagenes/normativa/explotacion.png');
+    background-size: cover;
+}
 
 
 .btn:hover::after {
@@ -176,8 +202,13 @@
     }
 
     .btn-white{
-        left: 25%;
+        left: 28%;
         
+    }
+
+    .title_nor{
+        font-size: 10vw;
+        text-align: center;
     }
 
 }
