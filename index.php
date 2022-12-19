@@ -338,8 +338,7 @@ require("templates/header.html");
                             <div class="bill_and_admon">
                                 <h3 class="text_admon"><strong>FACTURACIÓN<br>Y ADMINISTRACIÓN</strong></h3>
                                 <h3 class="text_schedule"><strong>Lunes a Viernes</strong> <br> 
-                                                8:00am - 1:00pm <br> 
-                                                2:00pm - 6:00pm <br>
+                                                8:00am - 6:00pm <br>
                                                 <strong>Sábados</strong> <br>
                                                 9:00am - 12:00pm <br>
                                                 facturacion@ottis.com.co
@@ -356,7 +355,7 @@ require("templates/header.html");
                             <div class="bill_and_admon">
                                 <h3 class="text_support"><strong>SOPORTE TÉCNICO</strong></h3>
                                 <h3 class="text_schedule_sup"><strong>Lunes a Sábado</strong> <br> 
-                                                6:00am - 1:00pm <br> 
+                                                6:00am - 9:00pm <br> 
                                                 <strong>Domingo y Festivos</strong> <br>
                                                 9:00am - 5:00pm <br>
                                                 mesadeservicio@ottis.com.co
@@ -373,8 +372,7 @@ require("templates/header.html");
                             <div class="bill_and_admon">
                                 <h3 class="text_trade"><strong>COMERCIAL<br>Y VENTAS</strong></h3>
                                 <h3 class="text_schedule_trade"><strong>Lunes a Viernes</strong> <br> 
-                                                    8:00am - 1:00pm <br>
-                                                    2:00pm - 6:00pm <br> 
+                                                    8:00am - 6:00pm <br> 
                                                     <strong>Sábados</strong> <br>
                                                     9:00am - 12:00pm <br>
                                                     comercial@ottis.com.co

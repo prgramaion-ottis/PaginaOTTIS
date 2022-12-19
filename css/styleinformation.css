@@ -1,0 +1,183 @@
+.white_box{
+    position: relative;
+    height: 3.5vw;
+    background-color: white;
+
+}
+.title_regulatory{
+    position: relative;
+    background-color: aqua;
+    height: 8vw;
+}
+.title_nor{
+    font-size: 2vw;
+    font-family: 'OTTIS_Titulo4';
+    color: #858585;
+}
+
+.ok{
+    width: 216px;
+    height: 8vw;
+    padding-top: 1%;
+    padding-left: 1vw;
+}
+.banner-crc{
+    display: none !important;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 15px;
+    height: 100px;
+    width: 185px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+    color: #001C51;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white { 
+    background-size: cover;
+    color: #001C51;
+    font-family: 'OTTIS_Titulo5';
+    font-size: 100%;
+}
+
+.protection{
+    background-image: url('../imagenes/normativa/proteccion2.png');
+}
+
+.treatment{
+    background-image: url('../imagenes/normativa/tratamiento2.png');
+}
+
+.treatment2{
+    background-image: url('../imagenes/normativa/sol_tratamineto2.png');
+}
+
+.contract{
+    background-image: url('../imagenes/normativa/contrato2.png');
+}
+
+.billing{
+    background-image: url('../imagenes/normativa/facturacion2.png');
+}
+
+.pqr{
+    background-image: url('../imagenes/normativa/pqr2.png');
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.protection::after {
+    background-image: url('../imagenes/normativa/proteccion.png');
+    background-size: cover;
+    
+}
+
+.treatment::after {
+    background-image: url('../imagenes/normativa/tratamiento.png');
+    background-size: cover;
+    
+}
+
+.treatment2::after {
+    background-image: url('../imagenes/normativa/sol_tratamiento.png');
+    background-size: cover;
+    
+}
+
+.contract::after {
+    background-image: url('../imagenes/normativa/contrato.png');
+    background-size: cover;
+    
+}
+
+.billing::after{
+    background-image: url('../imagenes/normativa/facturacion.png');
+    background-size: cover;
+}
+
+.pqr::after{
+    background-image: url('../imagenes/normativa/pqr.png');
+    background-size: cover;
+}
+
+
+
+.btn:hover::after {
+    transform: scaleX(1.2) scaleY(1.2);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media(min-width:1200px) and (max-width:1669px){
+    .ok{
+        height: 10vw;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1200px){
+    .ok{
+        height: 12vw;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    .ok{
+        height: 15vw;
+    }
+}
+
+@media(max-width:768px){
+    .ok{
+        height: 28vw;
+    }
+
+    .btn-white{
+        left: 25%;
+        
+    }
+
+}
