@@ -81,7 +81,7 @@ require("templates/header.html");
                         </div>
 
                         <div class="ok col-12 col-sm-12 col-md-6 col-lg-2">
-                            <a href="archivos/Normatividad/" new target="_blank" class="btn btn-white explotacion btn-animate">OTTIS CONTRA LA<br><strong>EXPLOTACIÓN <br> INFANTIL</BR> </strong></a>
+                            <a href="#exampleModalExplotacion" data-bs-toggle="modal" data-bs-target="#exampleModalExplotacion" class="btn btn-white explotacion btn-animate">OTTIS CONTRA LA<br><strong>EXPLOTACIÓN <br> INFANTIL</BR> </strong></a>
                         </div>
 
                     </div>

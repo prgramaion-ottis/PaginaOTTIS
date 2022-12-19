@@ -106,7 +106,7 @@ require("templates/header.html");
             </div> -->
             
         
-            <div class="author" >
+            <div class="autor" >
                 <p class="name"  >
 					<i class=" icon-time icon-48 active icon-circled"></i> 
 					<?php
